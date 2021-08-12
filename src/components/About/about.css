@@ -1,0 +1,30 @@
+.about {
+    flex-grow: 1;
+}
+  
+.about h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 4;
+    font-family: sans-serif;
+}
+
+.about p {
+    font-size: 1.3rem;
+    margin: 0px 35px;
+    font-family: sans-serif;
+    /* text-indent: 70px; */
+}
+
+.about :nth-child(3){
+    margin-top: 40px;
+}
+
+.about p a{
+    text-decoration:none;
+    color: blue;
+}
+
+.about p a:hover{
+    color:crimson
+}
