@@ -11,7 +11,6 @@
 
 .about p {
     font-size: 1.3rem;
-    margin: 0px 35px;
     font-family: sans-serif;
     /* text-indent: 70px; */
 }
@@ -27,4 +26,10 @@
 
 .about p a:hover{
     color:crimson
+}
+
+@media screen and (max-width: 860px){
+    .about p {
+        margin: 0px 35px;
+    }
 }

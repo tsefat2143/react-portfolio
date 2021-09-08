@@ -1,0 +1,43 @@
+.work-experience{
+    flex-grow: 1;
+}
+
+.work-experience h1{
+    text-align: center;
+    line-height: 4;
+    font-family: sans-serif;
+}
+
+.content:nth-of-type(1){
+    margin-bottom: 30px
+}
+
+.position{
+    font-size: 1.8rem;
+    font-family: Verdana;
+}
+
+.workplace a{
+    color: #0c0c80;
+    font-size: 1.5rem;
+}
+
+.workplace a:hover{
+    text-decoration: none;
+}
+
+.date{
+    font:1rem Arial;
+}
+
+.task li{
+    list-style: square;
+    font: 1.2rem courier;
+    font-weight: 550
+}
+
+@media screen and (max-width: 860px){
+    .content{
+        margin: 0px 35px;
+    }
+}

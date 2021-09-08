@@ -1,0 +1,50 @@
+import React from 'react'
+import logo from './logo.jpg'
+import './experience.css'
+const experience = () => {
+    return (
+        <div className='work-experience'>
+            <h1>WORK EXPERIENCE</h1>
+            <div className='content'>
+                <h2 className='position'>Sr. Admin Analyst</h2>
+                    <a href='https://www1.nyc.gov/site/hra/about/about-hra.page'
+                    target='_blank' rel="noreferrer">
+                        <img src={logo} height='80px' alt='hra-logo' />
+                    </a>
+                    <h3 className='date'>August 2021 - On Going</h3>
+                    <ul className='task'>
+                        <li>
+                            Utilized company software to upload and retrieve client information.
+                        </li>
+                    </ul>
+                </div>
+                {/*<a href='https://goodmd-db.web.app/home'
+                        target='_blank' rel="noreferrer"></a> */}
+                <div className='content'>
+                    <h2 className='position'>Full Stack Developer</h2>
+                    <h2 className='workplace'><a href='#'
+                        rel='nonreferrer'>
+                        <span style={{color:'#0c0c80'}}>Good</span><span style={{color:'orange'}}>MD</span>
+                        </a>
+                    </h2>
+                    <h3 className='date'>March 2021 - September 2021</h3>
+                    <ul className='task'>
+                        <li>
+                            Tech Stack: React, Node.JS, Express.JS NoSQL, Google Firebase.
+                        </li>
+                        <li>
+                            Used React to display frontend of healthcare website.
+                        </li>
+                        <li>
+                            Used Firebase to implement user authentication.
+                        </li>
+                        <li>
+                            Used Firebase to host website.
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    )
+}
+
+export default experience

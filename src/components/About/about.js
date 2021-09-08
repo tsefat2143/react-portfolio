@@ -15,9 +15,9 @@ const about = () => {
                 of software development. 
             </p>
             <p>
-                I am currently a Full Stack Developer at a Healthcare Startup 
-                known as GoodMD located in New York. I am open to other roles within the 
-                United States, so please free to <Link to='contact'>contact </Link> me.
+                I am currently a Sr. Admin Analyst at the New York Human Resources Administration. 
+                I am open to other roles within the United States, so please free to 
+                <Link to='contact'> contact </Link> me.
             </p>
         </div>
     )

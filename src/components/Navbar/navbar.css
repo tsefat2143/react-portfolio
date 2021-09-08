@@ -96,3 +96,7 @@
     background: transparent;
   }
 }
+@media screen and (max-height: 860px){
+  .list-wrapper ul{
+  }
+}
