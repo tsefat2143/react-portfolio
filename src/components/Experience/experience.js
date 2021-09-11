@@ -14,23 +14,20 @@ const experience = () => {
                     <h3 className='date'>August 2021 - On Going</h3>
                     <ul className='task'>
                         <li>
-                            Utilized company software to upload and retrieve client information.
+                            Utilized company software to upload and retrieve client information from various databases.
                         </li>
                     </ul>
                 </div>
-                {/*<a href='https://goodmd-db.web.app/home'
-                        target='_blank' rel="noreferrer"></a> */}
+
                 <div className='content'>
                     <h2 className='position'>Full Stack Developer</h2>
-                    <h2 className='workplace'><a href='#'
-                        rel='nonreferrer'>
+                    <h2 className='workplace'>
                         <span style={{color:'#0c0c80'}}>Good</span><span style={{color:'orange'}}>MD</span>
-                        </a>
                     </h2>
                     <h3 className='date'>March 2021 - September 2021</h3>
                     <ul className='task'>
                         <li>
-                            Tech Stack: React, Node.JS, Express.JS NoSQL, Google Firebase.
+                            React & Google Firebase.
                         </li>
                         <li>
                             Used React to display frontend of healthcare website.

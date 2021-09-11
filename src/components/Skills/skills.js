@@ -10,6 +10,9 @@ import react from './react.png'
 import nodejs from './node.png'
 import mysql from './mysql.png'
 import mongodb from './mongoDB.jpg'
+import git from './git.png'
+import firebase from './firebase.png'
+import netlify from './netlify.png'
 import './skills.css'
 
 const skills = () => {
@@ -26,6 +29,10 @@ const skills = () => {
                         <div className='prog-div'>
                             <img src={javascript} alt='javascript' />
                             <p>JavaScript</p>
+                        </div>
+                        <div className='prog-div'>
+                            <img src={php} alt='php' />
+                            <p>PHP</p>
                         </div>
                         <div className='prog-div'>
                             <img src={python} alt='python' />
@@ -62,16 +69,29 @@ const skills = () => {
                         <p>NodeJS</p>
                     </div>
                     <div className='back-div'>
-                        <img src={php} alt='php' />
-                        <p>PHP</p>
-                    </div>
-                    <div className='back-div'>
                         <img src={mysql} alt='mysql' />
                         <p>MYSQL</p>
                     </div>
                     <div className='back-div'>
                         <img src={mongodb} alt='mongoDB' />
                         <p>MongoDB</p>
+                    </div>
+                </div>
+            </div>
+            <div className='tools-div'>
+                <h2>Other Tools</h2>
+                <div className='img-div'>
+                    <div className='otherTools-div'>
+                        <img src={git} alt='git' />
+                        <p>Git</p>
+                    </div>
+                    <div className='back-div'>
+                        <img src={firebase} alt='firebase' />
+                        <p>Google Firebase</p>
+                    </div>
+                    <div className='back-div'>
+                        <img src={netlify} alt='netlify' />
+                        <p>Netlify</p>
                     </div>
                 </div>
             </div>

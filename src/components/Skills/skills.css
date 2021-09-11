@@ -13,14 +13,15 @@
     width: 90px
 }
 
-.progLang-div, .frontend-div, .backend-div{
+.progLang-div, .frontend-div, .backend-div, .tools-div{
     display: flex;
     flex-wrap: wrap;
 }
 
 .progLang-div h2, 
 .frontend-div h2,
-.backend-div h2{
+.backend-div h2,
+.tools-div h2{
     width: 100%;
     text-align: center;
 }
@@ -32,10 +33,6 @@
     margin: 5px 0px 20px 0px;
     flex-wrap: wrap;
 }
-
-/* .prog-div, .front-div, .back-div{
-    margin: 0px 30px;
-} */
 
 .skills-div p{
     text-align: center

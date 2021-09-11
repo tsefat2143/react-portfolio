@@ -17,13 +17,9 @@
     font-family: Verdana;
 }
 
-.workplace a{
+.workplace {
     color: #0c0c80;
     font-size: 1.5rem;
-}
-
-.workplace a:hover{
-    text-decoration: none;
 }
 
 .date{

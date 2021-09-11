@@ -2,6 +2,7 @@ import React from 'react'
 import Twitter from './twitter.png'
 import Graduation from './graduation.jpg'
 import Volcano from './volcano.png'
+import Wiresmart from './wiresmart.png'
 import './project.css'
 
 const project = () => {
@@ -14,6 +15,13 @@ const project = () => {
                         target='_blank' rel="noreferrer">
                         <img src={Graduation} alt='Graduation' />
                         <p>Graduation</p>
+                    </a>
+                </div>
+                <div className='project'>
+                    <a href='https://www.wiresmartelectrical.com/'
+                        target='_blank' rel="noreferrer">
+                        <img src={Wiresmart} alt='Wiresmart' />
+                        <p>WireSmart Electrical</p>
                     </a>
                 </div>
                 <div className='project'>

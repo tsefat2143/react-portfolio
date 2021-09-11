@@ -6,11 +6,11 @@ const Contact = () => {
     function sendEmail(e){
         e.preventDefault();
 
-        emailJS.sendForm('service_3xj8fgi','template_i3uuhck',e.target,'user_Tr2MGTU6Scux9JCSmlMwl')
+        emailJS.sendForm(process.env.REACT_APP_SERVICE,process.env.REACT_APP_TEMPLATE,e.target,process.env.REACT_APP_USER)
             .then((result) => {
-                console.log(result.text);
+                alert('Your Message Was Sent');
             }, (error) => {
-                console.log(error.text);
+                alert('Your Message Was Not Sent');
             })
         e.target.reset();
     }
