@@ -8,6 +8,7 @@ import {
   NavLink,
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom'
 import './navbar.css'
 
 const NavBar = (props) => {
@@ -22,16 +23,16 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/" style={{ color: "dodgerblue" }}>Home</NavLink>
+              <NavLink as={Link} to={'/'} style={{ color: "dodgerblue" }}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="about" style={{ color: "dodgerblue" }}>About</NavLink>
+              <NavLink as={Link} to={'/about'} style={{ color: "dodgerblue" }}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/skills" style={{ color: "dodgerblue" }}>Skills</NavLink>
+              <NavLink as={Link} to='/skills' style={{ color: "dodgerblue" }}>Skills</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/work-experience" style={{ color: "dodgerblue" }}>Experience</NavLink>
+              <NavLink as={Link} to={'/work-experience'} style={{ color: "dodgerblue" }}>Experience</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/project" style={{ color: "dodgerblue" }}>Projects</NavLink>
