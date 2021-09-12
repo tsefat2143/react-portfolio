@@ -23,22 +23,22 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink as={Link} to={'/'} style={{ color: "dodgerblue" }}>Home</NavLink>
+              <NavLink as={Link} to='/' style={{ color: "dodgerblue" }}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink as={Link} to={'/about'} style={{ color: "dodgerblue" }}>About</NavLink>
+              <NavLink as={Link} to='/about' style={{ color: "dodgerblue" }}>About</NavLink>
             </NavItem>
             <NavItem>
               <NavLink as={Link} to='/skills' style={{ color: "dodgerblue" }}>Skills</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink as={Link} to={'/work-experience'} style={{ color: "dodgerblue" }}>Experience</NavLink>
+              <NavLink as={Link} to='/work-experience' style={{ color: "dodgerblue" }}>Experience</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/project" style={{ color: "dodgerblue" }}>Projects</NavLink>
+              <NavLink as={Link} to="/project" style={{ color: "dodgerblue" }}>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact" style={{ color: "dodgerblue" }}>Contact</NavLink>
+              <NavLink as={Link} to="/contact" style={{ color: "dodgerblue" }}>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
