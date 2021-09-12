@@ -8,3 +8,7 @@ a.nav-link{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px 10px;
 }
+
+a:hover{
+  transform: scale(0.8);
+}

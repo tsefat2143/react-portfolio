@@ -32,3 +32,8 @@
     text-align: center;
     font: 1.5rem courier;
 }
+
+.project:hover{
+    transform: scale(1.1);
+    transition-duration: 1s
+}

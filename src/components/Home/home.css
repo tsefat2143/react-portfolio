@@ -29,6 +29,10 @@
     font-family: sans-serif;
 }
 
+.home .title button:hover{
+    background-color:rgba(0, 0, 255, 0.74)
+}
+
 @media (min-width: 860px) {
     .home {
       flex-direction: row;
