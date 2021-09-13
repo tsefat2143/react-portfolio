@@ -9,6 +9,18 @@ a.nav-link{
   margin: 0px 10px;
 }
 
+.nav-link a{
+  text-decoration: none;
+  color:dodgerblue
+}
+
 a:hover{
   transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transition: all 0.3s ease-in;
+  -moz-transform: all 0.3s ease-in;
+  -ms-transform: all 0.3s ease-in;
+  -webkit-transform: all 0.3s ease-in;
 }
