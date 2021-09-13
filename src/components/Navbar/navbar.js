@@ -5,9 +5,10 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
+  NavLink,
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './navbar.css'
 
 const NavBar = (props) => {
@@ -22,22 +23,26 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link to='/' style={{ color: "dodgerblue" }}>Home</Link>
+              <NavLink style={{ color: "dodgerblue" }}>
+                <Link to='/'>Home</Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link to='/about' style={{ color: "dodgerblue" }}>About</Link>
+              <NavLink style={{ color: "dodgerblue" }}>
+                <Link to='/about'>About</Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link to='/skills' style={{ color: "dodgerblue" }}>Skills</Link>
+              <NavLink href="/skills" style={{ color: "dodgerblue" }}>Skills</NavLink>
             </NavItem>
             <NavItem>
-              <Link to='/work-experience' style={{ color: "dodgerblue" }}>Experience</Link>
+              <NavLink href="/work-experience" style={{ color: "dodgerblue" }}>Experience</NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/project" style={{ color: "dodgerblue" }}>Projects</Link>
+              <NavLink href="/project" style={{ color: "dodgerblue" }}>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/contact" style={{ color: "dodgerblue" }}>Contact</Link>
+              <NavLink href="/contact" style={{ color: "dodgerblue" }}>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
