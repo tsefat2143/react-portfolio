@@ -8,8 +8,8 @@
     font-family: sans-serif;
 }
 
-.content:nth-of-type(1){
-    margin-bottom: 30px
+.content{
+    margin: 40px 0;
 }
 
 .position{
@@ -34,6 +34,6 @@
 
 @media screen and (max-width: 860px){
     .content{
-        margin: 0px 35px;
+        margin: 30px 35px;
     }
 }
