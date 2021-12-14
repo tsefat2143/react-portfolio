@@ -3,6 +3,7 @@ import Twitter from './twitter.png'
 import Graduation from './graduation.jpg'
 import Volcano from './volcano.png'
 import Wiresmart from './wiresmart.png'
+import Cars from './car.jpg'
 import './project.css'
 
 const project = () => {
@@ -36,6 +37,13 @@ const project = () => {
                         target='_blank' rel="noreferrer">
                         <img src={Twitter} alt='Twitter' />
                         <p>Simple Tweet</p>
+                    </a>
+                </div>
+                <div className='project'>
+                    <a href='https://github.com/tsefat2143/Car-Slideshow-Landing-Page'
+                        target='_blank' rel="noreferrer">
+                        <img src={Cars} alt='Cars' />
+                        <p>Cars Landing Page</p>
                     </a>
                 </div>
             </div>
