@@ -22,6 +22,11 @@
     font-size: 1.5rem;
 }
 
+.workplace a{
+    text-decoration: none;
+    color: #0c0c80;
+}
+
 .date{
     font:1rem Arial;
 }
