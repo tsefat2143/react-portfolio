@@ -4,6 +4,7 @@ import Graduation from './graduation.jpg'
 import Volcano from './volcano.png'
 import Wiresmart from './wiresmart.png'
 import Cars from './car.jpg'
+import Fitness from './fitness.png'
 import './project.css'
 
 const project = () => {
@@ -23,6 +24,13 @@ const project = () => {
                         target='_blank' rel="noreferrer">
                         <img src={Wiresmart} alt='Wiresmart' />
                         <p>WireSmart Electrical</p>
+                    </a>
+                </div>
+                <div className='project'>
+                    <a href='https://fitness917475285.wordpress.com/'
+                        target='_blank' rel="noreferrer">
+                        <img src={Fitness} alt='Fitness' />
+                        <p>Fitness Blog</p>
                     </a>
                 </div>
                 <div className='project'>
