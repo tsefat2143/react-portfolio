@@ -1,11 +1,13 @@
 .work-experience{
     flex-grow: 1;
+    padding-top: 70px;
 }
 
 .work-experience h1{
     text-align: center;
     line-height: 4;
     font-family: sans-serif;
+    color: #32de84
 }
 
 .content{
@@ -15,6 +17,7 @@
 .position{
     font-size: 1.8rem;
     font-family: Verdana;
+    color: #50C878
 }
 
 .workplace {

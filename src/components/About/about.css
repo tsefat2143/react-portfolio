@@ -1,5 +1,6 @@
 .about {
     flex-grow: 1;
+    padding-top: 70px;
 }
   
 .about h1 {
@@ -7,6 +8,7 @@
     text-align: center;
     line-height: 4;
     font-family: sans-serif;
+    color: #32de84;
 }
 
 .about p {

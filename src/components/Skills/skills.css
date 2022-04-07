@@ -1,11 +1,13 @@
 .skills-div{
     flex-grow: 1;
+    padding-top: 70px;
 }
 
 .skills-div h1{
     text-align: center;
     line-height: 4;
     font-family: sans-serif;
+    color: #32de84
 }
 
 .skills-div img{
@@ -24,6 +26,7 @@
 .tools-div h2{
     width: 100%;
     text-align: center;
+    color: #50C878
 }
 
 .img-div{

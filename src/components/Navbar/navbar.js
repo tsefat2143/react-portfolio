@@ -8,7 +8,7 @@ import {
   NavLink,
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './navbar.css'
 
 const NavBar = (props) => {
@@ -18,38 +18,38 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar  light expand="md">
+      <Navbar className='navbar-menu' light expand="md" fixed='top'>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink>
-                <Link to='/'>Home</Link>
+                <a href='/#'>Home</a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to='/about'>About</Link>
+                <a href='/#about'>About</a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to='/skills'>Skills</Link>
+                <a href='/#skills'>Skills</a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to='/work-experience'>Experience</Link>
+                <a href='/#work-experience'>Experience</a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/project">Projects</Link>
+                <a href="/#project">Projects</a>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/contact">Contact</Link>
+                <a href="/#contact">Contact</a>
               </NavLink>
             </NavItem>
           </Nav>

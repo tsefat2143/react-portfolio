@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaAngellist } from "react-icons/fa";
-import './footer.css'
+import './socials.css'
 
-const footer = () => {
+const socials = () => {
     return (
-        <div className='footer'>
+        <div className='socials'>
             <a href='https://github.com/tsefat2143' target='_blank' rel="noreferrer">
                 <FaGithub size={50}/>
             </a>
@@ -18,4 +18,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default socials

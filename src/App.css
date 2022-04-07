@@ -1,4 +1,4 @@
-.app {
+/* .app {
   display: flex;
   margin: 0 auto;
   max-width: 1380px;
@@ -7,18 +7,19 @@
   border-radius: 15px;
   flex-direction: column;
   background-color: #ffffff;
+} */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 @media (min-width: 860px) {
   .app {
     padding: 0 100px;
-    margin-top: 5vh;
-    min-height: 90vh;
-  }
-}
-
-@media screen and (max-width: 860px){
-  .app{
-    border-radius: 0px;
+    /* margin-top: 5vh; */
+    min-height: 100vh;
   }
 }

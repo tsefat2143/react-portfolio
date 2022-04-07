@@ -1,19 +1,25 @@
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
+import Person from './coding.gif'
+import Socials from '../Socials/socials'
 import './home.css'
 
 const home = () => {
     return (
-        <div className='home'>
+        <div className='home' id='/'>
             <div className='title'>
                 <h1>
                     <p>Hi,</p>
                     <p>I am Tajdidul Sefat,</p>
-                    <p>Software Developer</p>
+                    <p>Web Developer</p>
                 </h1>
-                <Link to='about'>
+                {/* <a href='about'>
                     <button>About Me</button>
-                </Link>
-            </div>            
+                </a> */}
+                <Socials />
+            </div>
+            <div className='gif-div'>
+                <img src={Person} alt="computer gif" className='comp-gif'/>
+            </div>
         </div>
     )
 }

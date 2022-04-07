@@ -3,7 +3,7 @@ import logo from './logo.jpg'
 import './experience.css'
 const experience = () => {
     return (
-        <div className='work-experience'>
+        <div className='work-experience' id='work-experience'>
             <h1>WORK EXPERIENCE</h1>
             <div className='content'>
                 <h2 className='position'>Sr. Admin Analyst</h2>
@@ -50,9 +50,6 @@ const experience = () => {
                         </li>
                         <li>
                             Used Firebase to implement user authentication.
-                        </li>
-                        <li>
-                            Used Firebase to host website.
                         </li>
                     </ul>
             </div>

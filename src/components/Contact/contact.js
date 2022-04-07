@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import emailJS from 'emailjs-com'
 import './contact.css'
 
@@ -16,7 +16,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='contact-div'>
+        <div className='contact-div' id='contact'>
             <h1>CONTACT ME</h1>
             <form onSubmit={sendEmail}>
                 <div className="form-group">

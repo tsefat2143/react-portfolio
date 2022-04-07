@@ -17,7 +17,7 @@ import './skills.css'
 
 const skills = () => {
     return (
-        <div className='skills-div'>
+        <div className='skills-div' id="skills">
             <h1>SKILLS</h1>
             <div className='progLang-div'>
                 <h2>Programming Languages</h2>
@@ -72,10 +72,10 @@ const skills = () => {
                         <img src={mysql} alt='mysql' />
                         <p>MYSQL</p>
                     </div>
-                    <div className='back-div'>
+                    {/* <div className='back-div'>
                         <img src={mongodb} alt='mongoDB' />
                         <p>MongoDB</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tools-div'>
