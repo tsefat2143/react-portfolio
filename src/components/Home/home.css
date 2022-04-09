@@ -49,7 +49,7 @@
     height: 14rem;
 }
 
-@media (min-width: 860px) {
+@media (min-width: 915px) {
     .home {
       flex-direction: row;
       justify-content: space-between;
