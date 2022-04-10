@@ -14,10 +14,17 @@ const project = () => {
             <h1>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
                 <div className='project'>
-                    <a href='https://github.com/tsefat2143/Graduation-Form'
+                    <a href='https://sneaker-store-development.myshopify.com/'
                         target='_blank' rel="noreferrer">
-                        <img src={Graduation} alt='Graduation' />
-                        <p>Graduation</p>
+                        <img src={Sneaker} alt='Sneaker' />
+                        <p>Sneaker Store Development</p>
+                    </a>
+                </div>
+                <div className='project'>
+                    <a href='https://fitness917475285.wordpress.com/'
+                        target='_blank' rel="noreferrer">
+                        <img src={Fitness} alt='Fitness' />
+                        <p>Fitness Blog</p>
                     </a>
                 </div>
                 <div className='project'>
@@ -28,10 +35,10 @@ const project = () => {
                     </a>
                 </div>
                 <div className='project'>
-                    <a href='https://fitness917475285.wordpress.com/'
+                    <a href='https://github.com/tsefat2143/Graduation-Form'
                         target='_blank' rel="noreferrer">
-                        <img src={Fitness} alt='Fitness' />
-                        <p>Fitness Blog</p>
+                        <img src={Graduation} alt='Graduation' />
+                        <p>Graduation</p>
                     </a>
                 </div>
                {/*  <div className='project'>
@@ -53,13 +60,6 @@ const project = () => {
                         target='_blank' rel="noreferrer">
                         <img src={Cars} alt='Cars' />
                         <p>Cars Landing Page</p>
-                    </a>
-                </div>
-                <div className='project'>
-                    <a href='https://sneaker-store-development.myshopify.com/'
-                        target='_blank' rel="noreferrer">
-                        <img src={Sneaker} alt='Sneaker' />
-                        <p>Sneaker Store Development</p>
                     </a>
                 </div>
             </div>
