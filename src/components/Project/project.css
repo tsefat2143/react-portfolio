@@ -67,9 +67,18 @@
 }
 
 .square p{
-    color: white;
+    color: black;
     font-size: 1.5rem ;
+    width: 320px;
+    background-color: rgba(245, 222, 179, 0.831)
+}
 
+.square a{
+    color: black;
+}
+
+.square a:hover{
+    color: white;
 }
 
 .project:hover{
