@@ -55,10 +55,21 @@ const project = () => {
                         <p>Simple Tweet</p>
                     </a>
                 </div> */}
+{/*                 <div className='project'>
+                    <a href='https://github.com/tsefat2143/Car-Slideshow-Landing-Page'
+                        target='_blank' rel="noreferrer">
+                        <img src={Cars} alt='Cars' />
+                        <p>Cars Landing Page</p>
+                    </a>
+                </div> */}
                 <div className='project'>
                     <a href='https://github.com/tsefat2143/Car-Slideshow-Landing-Page'
                         target='_blank' rel="noreferrer">
                         <img src={Cars} alt='Cars' />
+                        <div className='square'>
+                            <p>See Code</p>
+                            <p>See Live</p>
+                        </div>
                         <p>Cars Landing Page</p>
                     </a>
                 </div>
