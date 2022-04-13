@@ -10,14 +10,14 @@
     width: 100%;
     font-size: 18px;
     text-align: center;
-    font-family: cursive;
     padding-top: 50px;
 }
   
 .home .title p {
     line-height: 50px;
     font-weight: 600;
-    color: #32de84
+    color: #32de84;
+    font-family: cursive;
 }
 
 /* .home .title button {

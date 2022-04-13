@@ -15,7 +15,7 @@ const home = () => {
                         <Typewriter
                             options={{
                                 strings: ['Web Developer', 'Content Editor'],
-                                pauseFor: 2000,
+                                pauseFor: 3000,
                                 autoStart: true,
                                 loop: true,
                             }}/>
