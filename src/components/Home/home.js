@@ -1,6 +1,7 @@
 //import { Link } from 'react-router-dom'
 import Person from './coding.gif'
 import Socials from '../Socials/socials'
+import Typewriter from "typewriter-effect";
 import './home.css'
 
 const home = () => {
@@ -10,7 +11,15 @@ const home = () => {
                 <h1>
                     <p>Hi,</p>
                     <p>I am Tajdidul Sefat,</p>
-                    <p>Web Developer</p>
+                    <p>
+                        <Typewriter
+                            options={{
+                                strings: ['Web Developer', 'Content Editor'],
+                                pauseFor: 2000,
+                                autoStart: true,
+                                loop: true,
+                            }}/>
+                    </p>
                 </h1>
                 {/* <a href='about'>
                     <button>About Me</button>
