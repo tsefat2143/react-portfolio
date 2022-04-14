@@ -9,10 +9,10 @@ const about = () => {
             <p>
                 Hi Everyone! My name is Tajdidul Sefat and I love to code. 
                 By using various programming languages I like to create 
-                projects and learn new technologies to better my skills 
-                as a developer. I have graduated from the City University 
+                projects and learn new technologies to better my skills. 
+                I have graduated from the City University 
                 of New York at Queens College and plan to enjoy the ride 
-                of software development. During my weekends I love to go
+                of web development. During my weekends, I love to go
                 to the gym, play sports, or enjoy watching a comedy show.
             </p>
             <p>
