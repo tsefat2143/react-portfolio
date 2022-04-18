@@ -15,7 +15,7 @@
     width: 90px
 }
 
-.progLang-div, .frontend-div, .backend-div, .tools-div{
+.progLang-div, .frontend-div, .backend-div, .tools-div, .cms-div{
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,6 +23,7 @@
 .progLang-div h2, 
 .frontend-div h2,
 .backend-div h2,
+.cms-div h2,
 .tools-div h2{
     width: 100%;
     text-align: center;

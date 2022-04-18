@@ -13,6 +13,8 @@ import mongodb from './mongoDB.jpg'
 import git from './git.png'
 import firebase from './firebase.png'
 import netlify from './netlify.png'
+import Wordpress from './WordPress.png'
+import Shopify from './Shopify.jpg'
 import './skills.css'
 
 const skills = () => {
@@ -76,6 +78,19 @@ const skills = () => {
                         <img src={mongodb} alt='mongoDB' />
                         <p>MongoDB</p>
                     </div> */}
+                </div>
+            </div>
+            <div className='cms-div'>
+                <h2>Content Management Systems</h2>
+                <div className='img-div'>
+                    <div className='content-div'>
+                        <img src={Wordpress} alt='Wordpress' />
+                        <p>WordPress</p>
+                    </div>
+                    <div className='back-div'>
+                        <img src={Shopify} alt='Shopify' />
+                        <p>Shopify</p>
+                    </div>
                 </div>
             </div>
             <div className='tools-div'>
