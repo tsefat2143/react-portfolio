@@ -11,29 +11,24 @@
 }
 
 .project img{
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 400px;
     border-radius: 20px
 }
-
-/* .project-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-} */
-
-
 
 .project-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90%;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
 }
 
 .project{
-    margin: 6px
+    margin: 6px;
+    padding: 10px;
+    background-color: #32de8558;
+    margin: 15px;
 }
 
 .project a{
@@ -44,72 +39,41 @@
     text-align: center;
     font: 1.3rem courier;
     font-weight: 800;
-    color: #00A86B;
-/*     display: flex;
-    justify-content: center; */
+    color: white;
 }
 
-/* .square{
-    height: 320px;
-    width: 320px;
-    background-color:aliceblue;
-    border-radius: 20px;
+.project-text{
     display: flex;
+    align-items:center;
     justify-content: center;
     flex-direction: column;
-} */
-
-.square {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    background-color: rgba(245, 222, 179, 0.642);
-    width: 320px;
 }
 
-.square p{
-    color: white;
-    font-size: 1.6rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+.project-text p{
+    color: #00A86B;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
-.square a{
-    color: white;
+.project-text button{
+    color: #00A86B;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
 }
 
-.square a:hover{
-    color: dodgerblue;
-}
-
-.project:hover{
-    transform: scale(1.1);
-    transition-duration: 1s;
-}
-.project:hover .square{
-    display: block
-}
-
-.project img:hover{
-}
-
-/* @media screen and (max-width: 631px){
-    .project-container{
-        justify-content: center;
-    }
-} */
-@media screen and (max-width: 1320px){
-    .project-container{
-        width: 100%;
-    }
+@media screen and (max-width: 420px){
     .project{
-        margin: 0
+        margin: 10px 0;
+        padding: 10px 0;
     }
 }
 
-@media screen and (max-width: 631px){
-    .project-container{
-        justify-content: center;
+@media screen and (max-width: 400px){
+    .project img{
+        width: 320px;
+        height: 320px;
+        padding: 10px;
     }
 }

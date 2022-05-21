@@ -1,7 +1,7 @@
 import React from 'react'
 import java from './java.png'
 import javascript from './js.png'
-import python from './python.png'
+//import python from './python.png'
 import php from './php.png'
 import html from './html.png'
 import css from './css.png'
@@ -9,12 +9,15 @@ import bootstrap from './bootstrap.png'
 import react from './react.png'
 import nodejs from './node.png'
 import mysql from './mysql.png'
-import mongodb from './mongoDB.jpg'
+//import mongodb from './mongoDB.jpg'
 import git from './git.png'
 import firebase from './firebase.png'
 import netlify from './netlify.png'
 import Wordpress from './WordPress.png'
 import Shopify from './Shopify.jpg'
+import HubSpot from './hubspot.png'
+import Contentful from './contentful.png'
+import Analytics from "./analytics.png"
 import './skills.css'
 
 const skills = () => {
@@ -36,10 +39,10 @@ const skills = () => {
                             <img src={php} alt='php' />
                             <p>PHP</p>
                         </div>
-                        <div className='prog-div'>
+                        {/* <div className='prog-div'>
                             <img src={python} alt='python' />
                             <p>Python</p>
-                        </div>
+                        </div> */}
                     </div>
             </div>
             <div className='frontend-div'>
@@ -87,9 +90,17 @@ const skills = () => {
                         <img src={Wordpress} alt='Wordpress' />
                         <p>WordPress</p>
                     </div>
-                    <div className='back-div'>
+                    <div className='content-div'>
                         <img src={Shopify} alt='Shopify' />
                         <p>Shopify</p>
+                    </div>
+                    <div className='content-div'>
+                        <img src={HubSpot} alt='HubSpot' />
+                        <p>HubSpot</p>
+                    </div>
+                    <div className='content-div'>
+                        <img src={Contentful} alt='Contentful' />
+                        <p>Contentful</p>
                     </div>
                 </div>
             </div>
@@ -100,11 +111,15 @@ const skills = () => {
                         <img src={git} alt='git' />
                         <p>Git</p>
                     </div>
-                    <div className='back-div'>
+                    <div className='otherTools-div'>
                         <img src={firebase} alt='firebase' />
                         <p>Google Firebase</p>
                     </div>
-                    <div className='back-div'>
+                    <div className='otherTools-div'>
+                        <img src={Analytics} alt='Analytics' />
+                        <p>Google Analytics</p>
+                    </div>
+                    <div className='otherTools-div'>
                         <img src={netlify} alt='netlify' />
                         <p>Netlify</p>
                     </div>
