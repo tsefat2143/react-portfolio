@@ -14,7 +14,7 @@ const home = () => {
                     <p>
                         <Typewriter
                             options={{
-                                strings: ['Web Developer', 'Content Editor'],
+                                strings: ['Web Developer', 'Content Editor', 'Web Producer'],
                                 pauseFor: 1000,
                                 autoStart: true,
                                 loop: true,
