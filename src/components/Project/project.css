@@ -39,7 +39,7 @@
     text-align: center;
     font: 1.3rem courier;
     font-weight: 800;
-    color: white;
+    color: #a8003d;
 }
 
 .project-text{
@@ -58,9 +58,15 @@
 
 .project-text button{
     color: #00A86B;
+    background-color: rgba(245, 245, 220, 0.511);
+    font-weight: 600;
     margin: 0 10px;
     padding: 5px 10px;
     border: none;
+}
+
+.project-text button:hover{
+    background-color: beige
 }
 
 @media screen and (max-width: 420px){
