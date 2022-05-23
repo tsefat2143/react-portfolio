@@ -16,6 +16,7 @@ video{
     top: 0;
     left:0;
     object-fit: cover;
+    margin-top: 50px;
 }
 
 .home .title {
@@ -57,6 +58,9 @@ video{
       margin-top: 80px;
       text-align: left;
       font-size: 25px;
+    }
+    video{
+        margin-top: 50px;
     }
 /*     .comp-gif{
       margin-top: 80px;
