@@ -1,12 +1,16 @@
 //import { Link } from 'react-router-dom'
-import Person from './coding.gif'
+//import Person from './coding.gif'
 import Socials from '../Socials/socials'
 import Typewriter from "typewriter-effect";
+import beach from '../../beach.mp4'
 import './home.css'
 
 const home = () => {
     return (
         <div className='home' id='/'>
+            <video autoPlay loop muted>
+                <source src={beach}></source>
+            </video>
             <div className='title'>
                 <h1>
                     <p>Hi,</p>
@@ -26,9 +30,9 @@ const home = () => {
                 </a> */}
                 <Socials />
             </div>
-            <div className='gif-div'>
+{/*             <div className='gif-div'>
                 <img src={Person} alt="computer gif" className='comp-gif'/>
-            </div>
+            </div> */}
         </div>
     )
 }

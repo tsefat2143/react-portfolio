@@ -1,6 +1,8 @@
 .about {
     flex-grow: 1;
     padding-top: 70px;
+    z-index: 2;
+    background-color: white;
 }
   
 .about h1 {

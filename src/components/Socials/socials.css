@@ -11,10 +11,13 @@
 
 .socials a:nth-child(1), .socials a:nth-child(3){
     color:black;
+    color: white;
 }
 
 .socials a:nth-child(2){
-    color:#0077b5
+    color:#0077b5;
+    color: white;
+
 }
 
 @media (max-width: 860px) {
