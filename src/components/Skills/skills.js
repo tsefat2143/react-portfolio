@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import java from './java.png'
 import javascript from './js.png'
 //import python from './python.png'

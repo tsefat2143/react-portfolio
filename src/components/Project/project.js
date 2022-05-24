@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 //import Graduation from './graduation.jpg'
 //import Volcano from './volcano.png'
 import Wiresmart from './wiresmart.gif'
