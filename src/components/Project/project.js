@@ -6,23 +6,14 @@ import Cars from './car.gif'
 import Fitness from './wordpress.gif'
 import Sneaker from './shopify.gif'
 import Lyfe from './lyfe.gif'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './project.css'
 
 const Project = () => {
-    useEffect(() => {
-        AOS.init({
-            duration:2000,
-            once: true
-        });
-    }, []);
-
     return (
         <div className='project-div' id='project'>
             <h1>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
-                <div data-aos='fade-in' className='project'>
+                <div className='project'>
                     <img src={Sneaker} alt='Sneaker' />
                     <p>Sneaker Store Development</p>  
                     <div className='project-text'>
@@ -35,7 +26,7 @@ const Project = () => {
                         </div>
                     </div>  
                 </div>
-                <div data-aos='fade-in' className='project'>
+                <div className='project'>
                     <img src={Fitness} alt='Fitness' />
                     <p>Fitness Blog</p>
                     <div className='project-text'>
@@ -48,7 +39,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos='fade-in' className='project'>
+                <div className='project'>
                     <img src={Wiresmart} alt='Wiresmart' />
                     <p>WireSmart Electrical</p>
                     <div className='project-text'>
@@ -61,7 +52,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos='fade-in' className='project'>
+                <div className='project'>
                     <img src={Lyfe} alt='Lyfe' />
                     <p>Lyfe</p>
                     <div className='project-text'>
@@ -78,7 +69,7 @@ const Project = () => {
                     </div>
 
                 </div>
-                <div data-aos='fade-in' className='project'>
+                <div className='project'>
                     <img src={Cars} alt='Cars' />
                     <p>Cars Landing Page</p>
                     <div className='project-text'>
