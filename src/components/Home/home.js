@@ -4,24 +4,15 @@ import React, { useEffect } from 'react'
 import Socials from '../Socials/socials'
 import Typewriter from "typewriter-effect";
 import beach from '../../video.mp4'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './home.css'
 
 const Home = () => {
-    useEffect(() => {
-        AOS.init({
-            duration:2000,
-            once: true
-        });
-    }, []);
-
     return (
         <div className='home' id='/'>
             <video autoPlay loop muted>
                 <source src={beach}></source>
             </video>
-            <div data-aos='slide-right' className='title'>
+            <div className='title'>
                 <h1>
                     <p>Hi,</p>
                     <p>I am Tajdidul Sefat,</p>
