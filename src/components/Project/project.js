@@ -68,7 +68,7 @@ const Project = () => {
                     </div>
 
                 </div>
-                <div className='project'>
+{/*                 <div className='project'>
                     <img src={Cars} alt='Cars' />
                     <p>Cars Landing Page</p>
                     <div className='project-text'>
@@ -83,7 +83,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
