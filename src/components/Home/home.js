@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import Socials from '../Socials/socials'
 import Typewriter from "typewriter-effect";
-import beach from '../../video.mp4'
+import beach from '../../beach.mp4'
 import './home.css'
 
 const Home = () => {
