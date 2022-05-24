@@ -5,7 +5,7 @@ const About = () => {
         <div className='about' id='about'>
             <h1>ABOUT ME</h1>
             <p>
-                Hi Everyone! My name is Tajdidul Sefat and I love to code. 
+                Hi Everyone! My name is Tajdidul, aka Taj. 
                 By using various programming languages I like to create 
                 projects and learn new technologies to better my skills. 
                 I have graduated from the City University 
