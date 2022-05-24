@@ -1,11 +1,21 @@
-import React from 'react'
-import logo from './logo.jpg'
+import React, { useEffect } from 'react'
+//import logo from './logo.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './experience.css'
-const experience = () => {
+
+const Experience = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once: true
+        });
+    }, []);
+
     return (
         <div className='work-experience' id='work-experience'>
-            <h1>WORK EXPERIENCE</h1>
-            <div className='content'>
+            <h1 data-aos='fade-up'>RELEVANT EXPERIENCE</h1>
+{/*             <div className='content'>
                 <h2 className='position'>Sr. Admin Analyst</h2>
                     <a href='https://www1.nyc.gov/site/hra/about/about-hra.page'
                     target='_blank' rel="noreferrer">
@@ -17,9 +27,9 @@ const experience = () => {
                             Utilized company software to upload and retrieve client information from various databases.
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div className='content'>
+                <div data-aos='fade-right' className='content'>
                     <h2 className='position'>Web Developer</h2>
                     <h2 className='workplace'>
                         <a href='https://www.wiresmartelectrical.com/'
@@ -35,7 +45,7 @@ const experience = () => {
                     </ul>
                 </div>
 
-                <div className='content'>
+                <div data-aos='fade-right' className='content'>
                     <h2 className='position'>Full Stack Developer</h2>
                     <h2 className='workplace'>
                         <span style={{color:'#0c0c80'}}>Good</span><span style={{color:'orange'}}>MD</span>
@@ -57,4 +67,4 @@ const experience = () => {
     )
 }
 
-export default experience
+export default Experience

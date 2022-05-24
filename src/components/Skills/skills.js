@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import java from './java.png'
 import javascript from './js.png'
 //import python from './python.png'
@@ -18,13 +18,22 @@ import Shopify from './Shopify.jpg'
 import HubSpot from './hubspot.png'
 import Contentful from './contentful.png'
 import Analytics from "./analytics.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './skills.css'
 
-const skills = () => {
+const Skills = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once: true
+        });
+    }, []);
+
     return (
         <div className='skills-div' id="skills">
-            <h1>SKILLS</h1>
-            <div className='progLang-div'>
+            <h1 data-aos='fade-up'>SKILLS</h1>
+            <div data-aos='fade-left' className='progLang-div'>
                 <h2>Programming Languages</h2>
                     <div className='img-div'>
                         <div className='prog-div'>
@@ -45,7 +54,7 @@ const skills = () => {
                         </div> */}
                     </div>
             </div>
-            <div className='frontend-div'>
+            <div data-aos='fade-right' className='frontend-div'>
                 <h2>Frontend</h2>
                 <div className='img-div'>
                     <div className='front-div'>
@@ -66,7 +75,7 @@ const skills = () => {
                     </div>
                 </div>
             </div>
-            <div className='backend-div'>
+            <div data-aos='fade-left' className='backend-div'>
                 <h2>Backend</h2>
                 <div className='img-div'>
                     <div className='back-div'>
@@ -83,7 +92,7 @@ const skills = () => {
                     </div> */}
                 </div>
             </div>
-            <div className='cms-div'>
+            <div data-aos='fade-right' className='cms-div'>
                 <h2>Content Management Systems</h2>
                 <div className='img-div'>
                     <div className='content-div'>
@@ -104,7 +113,7 @@ const skills = () => {
                     </div>
                 </div>
             </div>
-            <div className='tools-div'>
+            <div data-aos='fade-left' className='tools-div'>
                 <h2>Other Tools</h2>
                 <div className='img-div'>
                     <div className='otherTools-div'>
@@ -129,4 +138,4 @@ const skills = () => {
     )
 }
 
-export default skills
+export default Skills

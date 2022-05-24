@@ -30,22 +30,9 @@ video{
 .home .title p {
     line-height: 50px;
     font-weight: 800;
-/*    color: #32de84; */
     color: white;
     font-family: cursive;
 }
-
-/* .gif-div{
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-}
-
-.comp-gif{
-    border-radius: 50%;
-    margin-top: 30px;
-    height: 14rem;
-} */
 
 @media (min-width: 915px) {
     .home {
@@ -61,13 +48,6 @@ video{
     }
     video{
         margin-top: 50px;
+        width: 100%;
     }
-/*     .comp-gif{
-      margin-top: 80px;
-      height: 50%;
-    } */
 }
-/* @media screen and (max-width: 860px){
-  .title h1{
-      margin-top: 35px;
-  } */

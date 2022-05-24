@@ -8,7 +8,6 @@ import {
   NavLink,
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Link } from 'react-router-dom';
 import './navbar.css'
 
 const NavBar = (props) => {

@@ -1,17 +1,27 @@
 //import { Link } from 'react-router-dom'
 //import Person from './coding.gif'
+import React, { useEffect } from 'react'
 import Socials from '../Socials/socials'
 import Typewriter from "typewriter-effect";
 import beach from '../../beach.mp4'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './home.css'
 
-const home = () => {
+const Home = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once: true
+        });
+    }, []);
+
     return (
-        <div className='home' id='/'>
+        <div data-aos='fade-in' className='home' id='/'>
             <video autoPlay loop muted>
                 <source src={beach}></source>
             </video>
-            <div className='title'>
+            <div data-aos='slide-right' className='title'>
                 <h1>
                     <p>Hi,</p>
                     <p>I am Tajdidul Sefat,</p>
@@ -25,16 +35,10 @@ const home = () => {
                             }}/>
                     </p>
                 </h1>
-                {/* <a href='about'>
-                    <button>About Me</button>
-                </a> */}
                 <Socials />
             </div>
-{/*             <div className='gif-div'>
-                <img src={Person} alt="computer gif" className='comp-gif'/>
-            </div> */}
         </div>
     )
 }
 
-export default home
+export default Home

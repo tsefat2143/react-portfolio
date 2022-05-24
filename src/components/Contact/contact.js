@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import emailJS from 'emailjs-com'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './contact.css'
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+            once: true
+        });
+    }, []);
+    
     function sendEmail(e){
         e.preventDefault();
 
@@ -16,7 +25,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='contact-div' id='contact'>
+        <div data-aos='fade-down' className='contact-div' id='contact'>
             <h1>CONTACT ME</h1>
             <form onSubmit={sendEmail}>
                 <div className="form-group">
