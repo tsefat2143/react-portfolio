@@ -17,7 +17,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div data-aos='fade-in' className='home' id='/'>
+        <div className='home' id='/'>
             <video autoPlay loop muted>
                 <source src={beach}></source>
             </video>
