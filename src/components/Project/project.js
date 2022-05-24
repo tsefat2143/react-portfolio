@@ -20,7 +20,7 @@ const Project = () => {
 
     return (
         <div className='project-div' id='project'>
-            <h1 data-aos='fade-up'>PROJECTS I'VE BUILT</h1>
+            <h1>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
                 <div data-aos='flip-left' className='project'>
                     <img src={Sneaker} alt='Sneaker' />

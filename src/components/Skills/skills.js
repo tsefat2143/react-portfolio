@@ -32,7 +32,7 @@ const Skills = () => {
 
     return (
         <div className='skills-div' id="skills">
-            <h1 data-aos='fade-up'>SKILLS</h1>
+            <h1>SKILLS</h1>
             <div data-aos='fade-left' className='progLang-div'>
                 <h2>Programming Languages</h2>
                     <div className='img-div'>

@@ -14,7 +14,7 @@ const Experience = () => {
 
     return (
         <div className='work-experience' id='work-experience'>
-            <h1 data-aos='fade-up'>RELEVANT EXPERIENCE</h1>
+            <h1>RELEVANT EXPERIENCE</h1>
 {/*             <div className='content'>
                 <h2 className='position'>Sr. Admin Analyst</h2>
                     <a href='https://www1.nyc.gov/site/hra/about/about-hra.page'
