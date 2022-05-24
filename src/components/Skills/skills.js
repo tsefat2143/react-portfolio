@@ -33,7 +33,7 @@ const Skills = () => {
     return (
         <div className='skills-div' id="skills">
             <h1>SKILLS</h1>
-            <div data-aos='fade-left' className='progLang-div'>
+            <div data-aos='fade-up' className='progLang-div'>
                 <h2>Programming Languages</h2>
                     <div className='img-div'>
                         <div className='prog-div'>
@@ -54,7 +54,7 @@ const Skills = () => {
                         </div> */}
                     </div>
             </div>
-            <div data-aos='fade-right' className='frontend-div'>
+            <div data-aos='fade-up' className='frontend-div'>
                 <h2>Frontend</h2>
                 <div className='img-div'>
                     <div className='front-div'>
@@ -75,7 +75,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos='fade-left' className='backend-div'>
+            <div data-aos='fade-up' className='backend-div'>
                 <h2>Backend</h2>
                 <div className='img-div'>
                     <div className='back-div'>
@@ -92,7 +92,7 @@ const Skills = () => {
                     </div> */}
                 </div>
             </div>
-            <div data-aos='fade-right' className='cms-div'>
+            <div data-aos='fade-up' className='cms-div'>
                 <h2>Content Management Systems</h2>
                 <div className='img-div'>
                     <div className='content-div'>
@@ -113,7 +113,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos='fade-left' className='tools-div'>
+            <div data-aos='fade-up' className='tools-div'>
                 <h2>Other Tools</h2>
                 <div className='img-div'>
                     <div className='otherTools-div'>
