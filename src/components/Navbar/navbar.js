@@ -17,7 +17,7 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   const changeColor = () => {
-    if(window.scrollY >= 326){
+    if(window.scrollY >= 226){
       setNavColor(true)
     }
     else{
