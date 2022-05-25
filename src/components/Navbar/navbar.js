@@ -12,12 +12,24 @@ import './navbar.css'
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [navColor, setNavColor] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const changeColor = () => {
+    if(window.scrollY >= 326){
+      setNavColor(true)
+    }
+    else{
+      setNavColor(false)
+    }
+  }
+
+  window.addEventListener('scroll',changeColor)
+
   return (
     <div>
-      <Navbar className='navbar-menu' light expand="md" fixed='top'>
+      <Navbar className={navColor ? 'navbar-menu active':'navbar-menu'} light expand="md" fixed='top'>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
