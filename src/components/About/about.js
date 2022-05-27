@@ -11,7 +11,7 @@ const About = () => {
                 I have graduated from the City University 
                 of New York at Queens College and plan to enjoy the ride 
                 of web development. During my weekends, I love to go
-                to the gym, play sports, or enjoy watching a comedy show.
+                to the gym, play sports, or watch a comedy show.
             </p>
             <p>
                 I am currently a Sr. Admin Analyst at the New York Human Resources Administration. 
