@@ -29,9 +29,6 @@ video {
     color: white;
     font-family: cursive;
 }
-#typewriter{
-    color: darkred;
-}
 @media (min-width: 915px) {
     .home {
         flex-direction: row;

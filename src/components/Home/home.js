@@ -13,7 +13,7 @@ const Home = () => {
                 <h1>
                     <p>Hi,</p>
                     <p>I am Tajdidul Sefat,</p>
-                    <p id='typewriter'>
+                    <p>
                         <Typewriter
                             options={{
                                 strings: ['Web Developer', 'Content Editor', 'Web Producer'],
