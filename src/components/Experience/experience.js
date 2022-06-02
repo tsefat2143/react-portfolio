@@ -14,7 +14,7 @@ const Experience = () => {
     return (
         <div className='work-experience' id='work-experience'>
             <h1 data-aos='fade-down'>RELEVANT EXPERIENCE</h1>
-                <div data-aos='fade-left' className='content'>
+                <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
                     <h2 className='position'>Web Developer</h2>
                     <h2 className='workplace'>
                         <a href='https://www.wiresmartelectrical.com/'
@@ -30,7 +30,7 @@ const Experience = () => {
                     </ul>
                 </div>
 
-                <div data-aos='fade-left' className='content'>
+                <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
                     <h2 className='position'>Full Stack Developer</h2>
                     <h2 className='workplace'>
                         GoodMD
