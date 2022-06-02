@@ -23,7 +23,7 @@ const Experience = () => {
                 <div className='content'>
                     <h2 className='position'>Full Stack Developer</h2>
                     <h2 className='workplace'>
-                        <span style={{color:'#0c0c80'}}>Good</span><span style={{color:'orange'}}>MD</span>
+                        GoodMD
                     </h2>
                     <h3 className='date'>January 2021 - September 2021</h3>
                     <ul className='task'>

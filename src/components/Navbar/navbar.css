@@ -1,14 +1,15 @@
 .navbar-menu {
     background-color: transparent;
-    animation: nav-animation 1s ease-in;
-    transition-duration: 300ms;
+    transition-duration: 400ms;
 }
 .navbar-menu.active {
-    background-color: #4fffb0;
+    background-color: rgb(18, 174, 198); 
+    background-color: black;
     transition-duration: 1s;
 }
 .navbar-toggler {
     margin-left: 5px;
+    background-color: rgb(36, 34, 34);
 }
 .collapse {
     justify-content: center;
@@ -45,6 +46,6 @@ a:hover {
 
 @media screen and (max-width:771px){
     .navbar-menu{
-        background-color: #4fffb0;
+        background-color: black;
     }
 }

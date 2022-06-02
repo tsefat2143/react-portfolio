@@ -16,8 +16,8 @@ const Project = () => {
                     <img src={Sneaker} alt='Sneaker' />
                     <p>Sneaker Store Development</p>  
                     <div className='project-text'>
-                    <p>Password: rteimp</p>
                         <p>Created a shopify store that sells merchandise</p>
+                        <p>Password: rteimp</p>
                         <div>
                             <a href='https://sneaker-store-development.myshopify.com/' target='_blank' rel="noreferrer">
                                 <button>Live</button>
@@ -29,8 +29,8 @@ const Project = () => {
                     <img src={Fitness} alt='Fitness' />
                     <p>Fitness Blog</p>
                     <div className='project-text'>
-                        <p>Created a blog about workout training program</p>
-                        <p>called push, pull, legs</p>
+                        <p>Created a blog about a training program</p>
+                        <p>WordPress</p>
                         <div>
                             <a href='https://fitness917475285.wordpress.com/' target='_blank' rel="noreferrer">
                                 <button>Live</button>

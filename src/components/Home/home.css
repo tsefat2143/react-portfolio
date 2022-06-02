@@ -22,33 +22,16 @@ video {
     font-size: 18px;
     text-align: center;
     padding-top: 50px;
-    animation: intro-animation 2s ease-in;
 }
 .home .title p {
     line-height: 50px;
     font-weight: 800;
-    color: #fff;
+    color: white;
     font-family: cursive;
 }
-
-@keyframes intro-animation {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
+#typewriter{
+    color: darkred;
 }
-
-@keyframes mobile-intro-animation {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
 @media (min-width: 915px) {
     .home {
         flex-direction: row;
@@ -63,11 +46,5 @@ video {
     }
     video {
         width: 100%;
-    }
-}
-
-@media screen and (max-width:771px){
-    .home .title{
-        animation: mobile-intro-animation 1s ease-in;;
     }
 }

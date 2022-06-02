@@ -1,1 +1,23 @@
-.socials{width:100%;padding:30px 0;text-decoration:none;margin-top:50px}.socials a{margin:0 10px;color:#fff}.socials a:nth-child(1):hover,.socials a:nth-child(3):hover{color:#000}.socials a:nth-child(2):hover{color:#0077b5}@media (max-width:860px){.socials{display:flex;justify-content:center}}
+.socials {
+    width: 100%;
+    padding: 30px 0;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.socials a {
+    margin: 0 10px;
+    color: #fff;
+}
+.socials a:nth-child(1):hover,
+.socials a:nth-child(3):hover {
+    color: #000;
+}
+.socials a:nth-child(2):hover {
+    color: #0077b5;
+}
+@media (max-width: 860px) {
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
+}

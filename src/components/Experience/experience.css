@@ -1,1 +1,41 @@
-.work-experience{flex-grow:1;padding-top:70px}.work-experience h1{text-align:center;line-height:4;font-family:sans-serif;color:#32de84}.content{margin:40px 0}.position{font-size:1.8rem;font-family:Verdana;color:#50c878}.workplace{color:#0c0c80;font-size:1.5rem}.workplace a{text-decoration:none;color:#0c0c80}.date{font:1rem Arial}.task li{list-style:square;font:1.2rem courier;font-weight:550}@media screen and (max-width:860px){.content{margin:30px 35px}}
+.work-experience {
+    flex-grow: 1;
+    padding-top: 70px;
+}
+.work-experience h1 {
+    text-align: center;
+    line-height: 4;
+    font-family: sans-serif;
+    color: #666;
+    font-weight: 800;
+}
+.content {
+    margin: 40px 0;
+}
+.position {
+    font-size: 1.8rem;
+    font-family: Verdana;
+    color: #4169e1;
+}
+.workplace {
+    color: #666;
+    font-size: 1.5rem;
+}
+.workplace a {
+    text-decoration: none;
+    color: #666;
+}
+.date {
+    font: 1rem Arial;
+    color: #354259;
+}
+.task li {
+    list-style: square;
+    font: 1.2rem courier;
+    font-weight: 550;
+}
+@media screen and (max-width: 860px) {
+    .content {
+        margin: 30px 35px;
+    }
+}

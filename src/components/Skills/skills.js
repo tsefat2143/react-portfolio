@@ -65,7 +65,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className='backend-div'>
+{/*             <div className='backend-div'>
                 <h2>Backend</h2>
                 <div className='img-div'>
                     <div className='back-div'>
@@ -76,12 +76,12 @@ const Skills = () => {
                         <img src={mysql} alt='mysql' />
                         <p>MYSQL</p>
                     </div>
-                    {/* <div className='back-div'>
+                    <div className='back-div'>
                         <img src={mongodb} alt='mongoDB' />
                         <p>MongoDB</p>
-                    </div> */}
+                    </div> 
                 </div>
-            </div>
+            </div> */}
             <div className='cms-div'>
                 <h2>Content Management Systems</h2>
                 <div className='img-div'>
