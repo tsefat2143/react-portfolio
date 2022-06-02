@@ -23,6 +23,35 @@ const Project = () => {
             <h1 data-aos='fade-down'>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
                 <div data-aos='fade-down' className='project'>
+                        <img src={Wiresmart} alt='Wiresmart' />
+                        <p>WireSmart Electrical</p>
+                        <div className='project-text'>
+                            <p>Created a website for an electrician client</p>
+                            <p>HTML, CSS, Bootstrap</p>
+                            <div>
+                                <a href='https://www.wiresmartelectrical.com/' target='_blank' rel="noreferrer">
+                                    <button>Live</button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
+                    <img src={Lyfe} alt='Lyfe' />
+                    <p>Lyfe</p>
+                    <div className='project-text'>
+                        <p>Created a Landing Page based on Lyfes Website</p>
+                        <p>HTML, CSS, SCSS, JavaScript</p>
+                        <div>
+                            <a href='https://tsefat2143.github.io/Lyfe/' target='_blank' rel="noreferrer">
+                                <button>Live</button>
+                            </a>
+                            <a href='https://github.com/tsefat2143/Lyfe' target='_blank' rel="noreferrer">
+                                <button>Github</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
                     <img src={Sneaker} alt='Sneaker' />
                     <p>Sneaker Store Development</p>  
                     <div className='project-text'>
@@ -47,36 +76,6 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div data-aos='fade-down' className='project'>
-                    <img src={Wiresmart} alt='Wiresmart' />
-                    <p>WireSmart Electrical</p>
-                    <div className='project-text'>
-                        <p>Created a website for an electrician client</p>
-                        <p>HTML, CSS, Bootstrap</p>
-                        <div>
-                            <a href='https://www.wiresmartelectrical.com/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos='fade-down' className='project'>
-                    <img src={Lyfe} alt='Lyfe' />
-                    <p>Lyfe</p>
-                    <div className='project-text'>
-                        <p>Created a Landing Page based on Lyfes Website</p>
-                        <p>HTML, CSS, SCSS, JavaScript</p>
-                        <div>
-                            <a href='https://tsefat2143.github.io/Lyfe/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
-                            </a>
-                            <a href='https://github.com/tsefat2143/Lyfe' target='_blank' rel="noreferrer">
-                                <button>Github</button>
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
 {/*                 <div className='project'>
                     <img src={Cars} alt='Cars' />
