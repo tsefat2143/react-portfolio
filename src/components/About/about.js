@@ -1,8 +1,18 @@
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './about.css'
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+            once: true
+        })
+    })
+
     return (
-        <div className='about' id='about'>
+        <div data-aos='fade-down' className='about' id='about'>
             <h1>ABOUT ME</h1>
             <p>
                 Hi Everyone! My name is Tajdidul, aka Taj. 

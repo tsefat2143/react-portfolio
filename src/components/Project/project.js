@@ -5,14 +5,24 @@ import Wiresmart from './wiresmart.gif'
 import Fitness from './wordpress.gif'
 import Sneaker from './shopify.gif'
 import Lyfe from './lyfe.gif'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './project.css'
 
 const Project = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+            once: true
+        })
+    })
+
     return (
         <div className='project-div' id='project'>
-            <h1>PROJECTS I'VE BUILT</h1>
+            <h1 data-aos='fade-down'>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
-                <div className='project'>
+                <div data-aos='fade-in' className='project'>
                     <img src={Sneaker} alt='Sneaker' />
                     <p>Sneaker Store Development</p>  
                     <div className='project-text'>
@@ -25,7 +35,7 @@ const Project = () => {
                         </div>
                     </div>  
                 </div>
-                <div className='project'>
+                <div data-aos='fade-in' className='project'>
                     <img src={Fitness} alt='Fitness' />
                     <p>Fitness Blog</p>
                     <div className='project-text'>
@@ -38,7 +48,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='project'>
+                <div data-aos='fade-in' className='project'>
                     <img src={Wiresmart} alt='Wiresmart' />
                     <p>WireSmart Electrical</p>
                     <div className='project-text'>
@@ -51,7 +61,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='project'>
+                <div data-aos='fade-in' className='project'>
                     <img src={Lyfe} alt='Lyfe' />
                     <p>Lyfe</p>
                     <div className='project-text'>
