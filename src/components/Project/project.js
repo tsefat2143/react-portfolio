@@ -68,7 +68,7 @@ const Project = () => {
                     <img src={Fitness} alt='Fitness' />
                     <p>Fitness Blog</p>
                     <div className='project-text'>
-                        <p>Created a blog about a training program</p>
+                        <p>Created a page about a training program</p>
                         <p>WordPress</p>
                         <div>
                             <a href='https://fitness917475285.wordpress.com/' target='_blank' rel="noreferrer">
