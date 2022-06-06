@@ -5,9 +5,16 @@ import Experience from './components/Experience/experience'
 import Skills from './components/Skills/skills'
 import Project from './components/Project/project'
 import Contact from './components/Contact/contact'
+import ReactGA from 'react-ga'
 import './App.css';
+import { useEffect } from 'react'
+
+ReactGA.initialize(process.env.REACT_APP_ANALYTICS)
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div className="app">
       <Navbar />
