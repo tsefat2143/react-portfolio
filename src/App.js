@@ -11,10 +11,10 @@ import { useEffect } from 'react'
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize(`${process.env.REACT_APP_ANALYTICS}`)
+    ReactGA.initialize(process.env.REACT_APP_ANALYTICS)
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
-  
+
   return (
     <div className="app">
       <Navbar />
