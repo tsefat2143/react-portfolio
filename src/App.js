@@ -9,12 +9,12 @@ import ReactGA from 'react-ga'
 import './App.css';
 import { useEffect } from 'react'
 
-ReactGA.initialize(`${process.env.REACT_APP_ANALYTICS}`)
-
 function App() {
   useEffect(() => {
+    ReactGA.initialize(`${process.env.REACT_APP_ANALYTICS}`)
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
+  
   return (
     <div className="app">
       <Navbar />
