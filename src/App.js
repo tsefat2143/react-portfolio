@@ -7,14 +7,10 @@ import Project from './components/Project/project'
 import Contact from './components/Contact/contact'
 import ReactGA from 'react-ga'
 import './App.css';
-import { useEffect } from 'react'
+
+ReactGA.initialize('G-DKTXJ3QKS6')
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_ANALYTICS)
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
     <div className="app">
       <Navbar />
