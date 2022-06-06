@@ -9,7 +9,7 @@ import ReactGA from 'react-ga'
 import './App.css';
 import { useEffect } from 'react'
 
-ReactGA.initialize(process.env.REACT_APP_ANALYTICS)
+ReactGA.initialize(`${process.env.REACT_APP_ANALYTICS}`)
 
 function App() {
   useEffect(() => {
