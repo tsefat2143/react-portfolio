@@ -3,6 +3,16 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import './contact.css'
+import ReactGA from 'react-ga4'
+
+const emailAnalytics = () => {
+    ReactGA.event({
+        action:'email_action',
+        category:'email_category',
+        label:'email_label',
+        value:'xxxxx'
+    })
+}
 
 const Contact = () => {
     useEffect(() => {
@@ -40,7 +50,7 @@ const Contact = () => {
                 <div className="form-group">
                     <textarea className="form-control" rows="10" placeholder='Enter Your Message Here' name='message' required></textarea>
                 </div>
-                <input type="submit" class='button' value="Send" />
+                <input type="submit" class='button' value="Send" onClick={emailAnalytics}/>
             </form>
         </div>
     )
