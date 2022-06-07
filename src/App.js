@@ -9,6 +9,7 @@ import ReactGA from 'react-ga4'
 import './App.css';
 
 ReactGA.initialize("G-DKTXJ3QKS6")
+ReactGA.send("pageview");
 
 function App() {
   return (
