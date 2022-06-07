@@ -5,7 +5,10 @@ import Experience from './components/Experience/experience'
 import Skills from './components/Skills/skills'
 import Project from './components/Project/project'
 import Contact from './components/Contact/contact'
+import ReactGA from 'react-ga4'
 import './App.css';
+
+ReactGA.initialize("G-DKTXJ3QKS6")
 
 function App() {
   return (
