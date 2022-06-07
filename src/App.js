@@ -8,7 +8,7 @@ import Contact from './components/Contact/contact'
 import ReactGA from 'react-ga4'
 import './App.css';
 
-ReactGA.initialize(`"${process.env.REACT_APP_ANALYTICS}"`)
+ReactGA.initialize("G-DKTXJ3QKS6")
 
 function App() {
   return (
