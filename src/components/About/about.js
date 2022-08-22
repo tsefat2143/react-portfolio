@@ -24,7 +24,7 @@ const About = () => {
                 to the gym, play sports, or watch a comedy show.
             </p>
             <p>
-                I am currently a Sr. Admin Analyst at the New York Human Resources Administration. 
+                I am currently a Analyst Quality Assurance at TCS - PNC Bank. 
                 I am open to other roles within the United States, so please free to 
                 <a href='/#contact'> contact </a> me.
             </p>
