@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <p>
                 I am currently a Analyst Quality Assurance at TCS - PNC Bank. 
-                I am open to other roles within the United States, so please free to 
+                I am open to other roles within the United States, so please feel free to 
                 <a href='/#contact'> contact </a> me.
             </p>
         </div>
