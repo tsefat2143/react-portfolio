@@ -1,6 +1,5 @@
 import java from './java.png'
 import javascript from './js.png'
-//import python from './python.png'
 import php from './php.png'
 import html from './html.png'
 import css from './css.png'
@@ -10,8 +9,7 @@ import react from './react.png'
 //import mysql from './mysql.png'
 //import mongodb from './mongoDB.jpg'
 import git from './git.png'
-import firebase from './firebase.png'
-import netlify from './netlify.png'
+import adobe from './adobe.png'
 import Wordpress from './WordPress.png'
 import Shopify from './Shopify.jpg'
 import HubSpot from './hubspot.png'
@@ -121,16 +119,12 @@ const Skills = () => {
                         <p>Git</p>
                     </div>
                     <div className='otherTools-div'>
-                        <img src={firebase} alt='firebase' />
-                        <p>Google Firebase</p>
+                        <img src={adobe} alt='firebase' />
+                        <p>Adobe Photoshop</p>
                     </div>
                     <div className='otherTools-div'>
                         <img src={Analytics} alt='Analytics' />
                         <p>Google Analytics</p>
-                    </div>
-                    <div className='otherTools-div'>
-                        <img src={netlify} alt='netlify' />
-                        <p>Netlify</p>
                     </div>
                 </div>
             </div>
