@@ -16,6 +16,8 @@ const projectAnalytics = (project) => {
     ReactGA.event({
         action:`${project}_action`,
         category:'project_category',
+        label:'project_label',
+        value:'xxxxx'
     })
 }
 
