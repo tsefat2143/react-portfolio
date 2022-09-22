@@ -12,13 +12,14 @@ import './project.css'
 import ReactGA from "react-ga4";
 
 
-const projectAnalytics = (project) => {
+const projectAnalytics = () => {
     ReactGA.event({
-        action:`${project}_action`,
+        action:'project_action',
         category:'project_category',
         label:'project_label',
         value:'xxxxx'
     })
+    console.log(ReactGA.event(['action']));
 }
 
 const Project = () => {
@@ -54,7 +55,7 @@ const Project = () => {
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
                                 <a href='https://wiresmartelectrical.netlify.app/' target='_blank' rel="noreferrer">
-                                    <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
+                                    <button onClick={projectAnalytics()}>Live</button>
                                 </a>
                             </div>
                         </div>
