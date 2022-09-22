@@ -12,14 +12,14 @@ import './project.css'
 import ReactGA from "react-ga4";
 
 
-const projectAnalytics = () => {
+const projectAnalytics = (project) => {
     ReactGA.event({
-        action:'project_action',
+        action:`'${project}_action'`,
         category:'project_category',
         label:'project_label',
         value:'xxxxx'
     })
-    console.log(ReactGA.event(['action']));
+    console.log(ReactGA.event);
 }
 
 const Project = () => {
@@ -55,7 +55,7 @@ const Project = () => {
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
                                 <a href='https://wiresmartelectrical.netlify.app/' target='_blank' rel="noreferrer">
-                                    <button onClick={projectAnalytics()}>Live</button>
+                                    <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
@@ -68,10 +68,10 @@ const Project = () => {
                         <p>HTML, CSS, SCSS, JavaScript</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Lyfe/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
+                                <button onClick={projectAnalytics('Lyfe_Live')}>Live</button>
                             </a>
                             <a href='https://github.com/tsefat2143/Lyfe' target='_blank' rel="noreferrer">
-                                <button>Github</button>
+                                <button onClick={projectAnalytics('Lyfe_Code')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const Project = () => {
                         <p>Password: rteimp</p>
                         <div>
                             <a href='https://sneaker-store-development.myshopify.com/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
+                                <button onClick={projectAnalytics('Store_Live')}>Live</button>
                             </a>
                         </div>
                     </div>  
@@ -97,7 +97,7 @@ const Project = () => {
                         <p>WordPress</p>
                         <div>
                             <a href='https://fitness917475285.wordpress.com/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
+                                <button onClick={projectAnalytics('Fitness_Live')}>Live</button>
                             </a>
                         </div>
                     </div>
