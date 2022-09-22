@@ -9,6 +9,15 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './project.css'
+import ReactGA from "react-ga4";
+
+
+const projectAnalytics = (project) => {
+    ReactGA.event({
+        action:`${project}_action`,
+        category:'project_category',
+    })
+}
 
 const Project = () => {
     useEffect(() => {
@@ -43,7 +52,7 @@ const Project = () => {
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
                                 <a href='https://wiresmartelectrical.netlify.app/' target='_blank' rel="noreferrer">
-                                    <button>Live</button>
+                                    <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
