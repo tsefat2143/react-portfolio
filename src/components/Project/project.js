@@ -14,7 +14,7 @@ import ReactGA from "react-ga4";
 
 const projectAnalytics = (project) => {
     ReactGA.event({
-        action:`'${project}_action'`,
+        action:`${project}_action`,
         category:'project_category',
         label:'project_label',
         value:'xxxxx'
