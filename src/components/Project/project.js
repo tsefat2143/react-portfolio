@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './project.css'
 import ReactGA from "react-ga4";
+import temail from './temail.gif';
 
 
 const projectAnalytics = (project) => {
@@ -17,9 +18,9 @@ const projectAnalytics = (project) => {
         action:`${project}_action`,
         category:'project_category',
         label:'project_label',
-        value:'xxxxx'
+        value:`xxxx${project[0]}`
     })
-    console.log(ReactGA.event);
+    console.log(project, project[0].toLowerCase());
 }
 
 const Project = () => {
@@ -88,6 +89,22 @@ const Project = () => {
                             </a>
                         </div>
                     </div>  
+                </div>
+                <div data-aos='fade-down' className='project'>
+                    <img src={temail} alt='temail' />
+                    <p>Transactional Email</p>
+                    <div className='project-text'>
+                        <p>Created a transactional email for pure prescriptions</p>
+                        <p>HTML, CSS</p>
+                        <div>
+                            <a href='https://tsefat2143.github.io/Transactional-Email/' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('TEmail_Live')}>Live</button>
+                            </a>
+                            <a href='https://github.com/tsefat2143/Transactional-Email' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('TEmail_Code')}>Github</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div data-aos='fade-down' className='project'>
                     <img src={Fitness} alt='Fitness' />
