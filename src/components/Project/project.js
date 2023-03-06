@@ -1,7 +1,6 @@
 //import Graduation from './graduation.gif'
 import Wiresmart from './wiresmart.gif'
 import Powersmart from './powersmart.gif'
-//import Cars from './car.gif'
 import Fitness from './wordpress.gif'
 import Sneaker from './shopify.gif'
 import Lyfe from './lyfe.gif'
@@ -11,6 +10,7 @@ import { useEffect } from 'react';
 import './project.css'
 import ReactGA from "react-ga4";
 import temail from './temail.gif';
+import pemail from './pemail.gif'
 
 
 const projectAnalytics = (project) => {
@@ -94,7 +94,7 @@ const Project = () => {
                     <img src={temail} alt='temail' />
                     <p>Transactional Email</p>
                     <div className='project-text'>
-                        <p>Created a transactional email for pure prescriptions</p>
+                        <p>Created a transactional email from pure prescriptions</p>
                         <p>HTML, CSS</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Transactional-Email/' target='_blank' rel="noreferrer">
@@ -102,6 +102,22 @@ const Project = () => {
                             </a>
                             <a href='https://github.com/tsefat2143/Transactional-Email' target='_blank' rel="noreferrer">
                                 <button onClick={projectAnalytics('TEmail_Code')}>Github</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
+                    <img src={pemail} alt='pemail' />
+                    <p>Promotional Email</p>
+                    <div className='project-text'>
+                        <p>Created a promotional email from fully</p>
+                        <p>HTML, CSS</p>
+                        <div>
+                            <a href='https://tsefat2143.github.io/Promotional-Email/' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('PEmail_Live')}>Live</button>
+                            </a>
+                            <a href='https://github.com/tsefat2143/Promotional-Email' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('PEmail_Code')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -119,22 +135,6 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-{/*                 <div className='project'>
-                    <img src={Cars} alt='Cars' />
-                    <p>Cars Landing Page</p>
-                    <div className='project-text'>
-                        <p>Created a cars landing page slideshow</p>
-                        <p>HTML, CSS, JavaScript</p>
-                        <div>
-                            <a href='https://car-slideshow.netlify.app/' target='_blank' rel="noreferrer">
-                                <button>Live</button>
-                            </a>
-                            <a href='https://github.com/tsefat2143/Car-Slideshow-Landing-Page' target='_blank' rel="noreferrer">
-                                <button>Github</button>
-                            </a>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     )
