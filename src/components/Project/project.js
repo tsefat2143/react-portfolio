@@ -11,6 +11,7 @@ import './project.css'
 import ReactGA from "react-ga4";
 import temail from './temail.gif';
 import pemail from './pemail.gif'
+import nemail from './nemail.gif'
 
 
 const projectAnalytics = (project) => {
@@ -89,6 +90,22 @@ const Project = () => {
                             </a>
                         </div>
                     </div>  
+                </div>
+                <div data-aos='fade-down' className='project'>
+                    <img src={nemail} alt='nemail' />
+                    <p>Newsletter</p>
+                    <div className='project-text'>
+                        <p>Created a newsletter email from Fullstack Academy</p>
+                        <p>HTML, CSS</p>
+                        <div>
+                            <a href='https://tsefat2143.github.io/News-Letter/' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('NEmail_Live')}>Live</button>
+                            </a>
+                            <a href='https://github.com/tsefat2143/News-Letter' target='_blank' rel="noreferrer">
+                                <button onClick={projectAnalytics('NEmail_Code')}>Github</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div data-aos='fade-down' className='project'>
                     <img src={temail} alt='temail' />
