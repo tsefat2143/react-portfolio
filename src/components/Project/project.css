@@ -23,7 +23,8 @@
 }
 .project {
     padding: 10px;
-    background-color: #4169e1e6;
+    border: 2px solid #000;
+    border-radius: 10 px;
     margin: 15px;
 }
 .project a {
@@ -32,8 +33,8 @@
 .project p {
     text-align: center;
     font: 1.35rem sans-serif;
-    font-weight: 600;
-    color: white;
+    font-weight: 800;
+    color: #4169e1e6;
 }
 .project-text {
     display: flex;
@@ -42,22 +43,21 @@
     flex-direction: column;
 }
 .project-text p {
-    color: #c3ffff;
+    color: #666;
     font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 600;
 }
 .project-text button {
     color: white;
-    background-color: rgba(245, 245, 220, 0.511);
+    background-color: #4169e1e6;
     font-weight: 600;
     margin: 0 10px;
     padding: 5px 10px;
     border: none;
 }
 .project-text button:hover {
-    color: #c3ffff;
-    background-color: rgba(102, 102, 102, 0.436);
+    background-color: #1449e8;
     transition-duration: 300ms;
 }
 @media screen and (max-width: 420px) {
