@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaAngellist } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import './socials.css'
 
 const socials = () => {
@@ -10,10 +10,7 @@ const socials = () => {
             </a>
             <a href='https://www.linkedin.com/in/tajdidul-sefat/' target='_blank' rel="noreferrer">
                 <FaLinkedin size={50}/>
-            </a>
-            <a href='https://angel.co/u/tajdidul-sefat' target='_blank' rel="noreferrer">
-                <FaAngellist size={50}/>
-            </a>             
+            </a>          
         </div>
     )
 }

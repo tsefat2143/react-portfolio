@@ -1,14 +1,14 @@
 import Socials from '../Socials/socials'
 import Typewriter from "typewriter-effect";
-import beach from '../../beach.mp4'
+import night from './night.jpg'
 import './home.css'
 
 const Home = () => {
     return (
         <div className='home' id='/'>
-            <video autoPlay loop muted>
-                <source src={beach}></source>
-            </video>
+            <div className='background-div'>
+                <img src={night} alt='night'/>
+            </div>
             <div className='title'>
                 <h1>
                     <p>Hi,</p>
