@@ -12,6 +12,7 @@ import ReactGA from "react-ga4";
 import temail from './temail.gif';
 import pemail from './pemail.gif'
 import nemail from './nemail.gif'
+import Restaurant from './restaurant.gif'
 
 
 const projectAnalytics = (project) => {
@@ -58,6 +59,19 @@ const Project = () => {
                             <div>
                                 <a href='https://wiresmartelectrical.netlify.app/' target='_blank' rel="noreferrer">
                                     <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
+                        <img src={Restaurant} alt='Restaurant' />
+                        <p>Mike's Restaurant</p>
+                        <div className='project-text'>
+                            <p>Created a restaurant website</p>
+                            <p>WordPress, PHP</p>
+                            <div>
+                                <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
+                                    <button onClick={projectAnalytics('Restaurant_Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
