@@ -65,7 +65,7 @@ const Project = () => {
                 </div>
                 <div data-aos='fade-down' className='project'>
                         <img src={Restaurant} alt='Restaurant' />
-                        <p>Mike's Restaurant</p>
+                        <p>Mike's Diner</p>
                         <div className='project-text'>
                             <p>Created a restaurant website</p>
                             <p>WordPress, PHP</p>
