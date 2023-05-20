@@ -14,8 +14,9 @@
 .about p {
     font-size: 1.3rem;
     font-family: sans-serif;
+    padding-left: 100px;
 }
-.about :nth-child(3) {
+.bio :nth-child(2) {
     margin-top: 40px;
 }
 .about p a {
@@ -24,6 +25,29 @@
 }
 .about p a:hover {
     color: #dc143c;
+}
+.about img{
+    width: 30%;
+    border-radius: 10%;
+}
+.about-div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+@media screen and (max-width: 1300px) {
+    .about-div{
+        flex-direction: column;
+    }
+    .about p{
+        padding-left: 0;
+    }
+    .about img{
+        width: 70%;
+    }
+    .bio{
+        padding-top: 50px;
+    }
 }
 @media screen and (max-width: 860px) {
     .about p {
