@@ -57,7 +57,7 @@ const Project = () => {
                             <p>Created a website for an electrician client</p>
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
-                                <a href='https://wiresmartelectrical.netlify.app/' target='_blank' rel="noreferrer">
+                                <a href='https://wiresmartelectrical.in/' target='_blank' rel="noreferrer">
                                     <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
                                 </a>
                             </div>
