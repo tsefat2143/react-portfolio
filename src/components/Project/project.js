@@ -37,19 +37,19 @@ const Project = () => {
         <div className='project-div' id='project'>
             <h1 data-aos='fade-down'>PROJECTS I'VE BUILT</h1>
             <div className='project-container'>
-{/*                 <div data-aos='fade-down' className='project'>
+                <div data-aos='fade-down' className='project'>
                         <img src={Powersmart} alt='Powersmart' />
                         <p>Power Smart Electric</p>
                         <div className='project-text'>
                             <p>Created a website for an electrician client</p>
                             <p>HTML, CSS, JavaScript, jQuery, AJAX, SQL, PHP</p>
                             <div>
-                                <a href='' target='_blank' rel="noreferrer">
+                                <a href='https://powersmartelectricllc.com/' target='_blank' rel="noreferrer">
                                     <button>Live</button>
                                 </a>
                             </div>
                         </div>
-                </div> */}
+                </div>
                 <div data-aos='fade-down' className='project'>
                         <img src={Wiresmart} alt='Wiresmart' />
                         <p>WireSmart Electrical</p>
