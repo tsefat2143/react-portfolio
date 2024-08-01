@@ -58,11 +58,11 @@ const NavBar = (props) => {
                 <a href="/#project">Projects</a>
               </NavLink>
             </NavItem>
-            <NavItem>
+{/*             <NavItem>
               <NavLink>
                 <a href="/#contact">Contact</a>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Collapse>
       </Navbar>

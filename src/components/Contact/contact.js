@@ -1,3 +1,4 @@
+/*
 import emailJS from 'emailjs-com'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
@@ -57,3 +58,4 @@ const Contact = () => {
 }
 
 export default Contact
+*/
