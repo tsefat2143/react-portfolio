@@ -18,12 +18,23 @@ const Experience = () => {
                 <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
                     <h2 className='position'>Web Developer</h2>
                     <h2 className='workplace'>Power Smart Electric LLC</h2>
-                    <h3 className='date'>December 2022 - August 2023</h3>
+                    <h3 className='date'>April 2023 - December 2023</h3>
                     <ul className='task'>
                         <li>HTML, CSS, JavaScript, jQuery, AJAX, SQL, PHP</li>
                         <li>Hosted with Hostinger.</li>
                         <li>Created a website to promote client's electrician business.</li>
                         <li>Created a rating system in the backend so customers can leave a review of the company's services.</li>
+                    </ul>
+                </div>
+
+                <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
+                    <h2 className='position'>Web Developer</h2>
+                    <h2 className='workplace'>WireSmart Electrical LLC</h2>
+                    <h3 className='date'>March 2023 - June 2023</h3>
+                    <ul className='task'>
+                        <li>HTML, CSS, Bootstrap</li>
+                        <li>Hosted with Netlify.</li>
+                        <li>Created a website to promote client's electrician business.</li>
                     </ul>
                 </div>
 
@@ -35,17 +46,6 @@ const Experience = () => {
                         <li>SQL, Python</li>
                         <li>Wrote complex SQL queries to test different types of business logic in congruence to PNC's and their client's data</li>
                         <li>Used Python to automate test cases.</li>
-                    </ul>
-                </div>
-
-                <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
-                    <h2 className='position'>Web Developer</h2>
-                    <h2 className='workplace'>WireSmart Electrical LLC</h2>
-                    <h3 className='date'>August 2021 - October 2021</h3>
-                    <ul className='task'>
-                        <li>HTML, CSS, Bootstrap</li>
-                        <li>Hosted with Netlify.</li>
-                        <li>Created a website to promote client's electrician business.</li>
                     </ul>
                 </div>
 
