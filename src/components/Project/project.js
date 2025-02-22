@@ -45,7 +45,7 @@ const Project = () => {
                             <p>HTML, CSS, JavaScript, jQuery, AJAX, SQL, PHP</p>
                             <div>
                                 <a href='https://powersmartelectricllc.com/' target='_blank' rel="noreferrer">
-                                    <button>Live</button>
+                                    <button onClick={projectAnalytics('Powersmart_Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
