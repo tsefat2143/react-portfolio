@@ -6,7 +6,7 @@ import Sneaker from './shopify.gif'
 import Lyfe from './lyfe.gif'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './project.css'
 import ReactGA from "react-ga4";
 import temail from './temail.gif';
@@ -15,23 +15,55 @@ import nemail from './nemail.gif'
 import Restaurant from './restaurant.gif'
 
 
-const projectAnalytics = (project) => {
+const projectAnalytics = (project, buttonType, clickCount, setClickCount) => {
+    const newClickCount = clickCount + 1;
+    setClickCount(newClickCount);
+
     ReactGA.event({
-        action:`${project}_action`,
-        category:'project_category',
-        label:'project_label',
-        value:`xxxx${project[0]}`
-    })
-    console.log(project, project[0].toLowerCase());
+        action:`${project}_${buttonType}_click`,
+        category:'button_clicks',
+        label:`${buttonType} Button for ${project}`,
+        value:newClickCount,
+    });
+    console.log(`${project} - ${buttonType} clicked`, newClickCount);
 }
 
 const Project = () => {
+    const [clickCounts, setClickCounts] = useState({
+        Powersmart_Live: 0,
+        Wiresmart_Live: 0,
+        Restaurant_Live: 0,
+        Lyfe_Live: 0,
+        Lyfe_Github: 0,
+        Store_Live: 0,
+        NEmail_Live: 0,
+        NEmail_Github: 0,
+        TEmail_Live: 0,
+        TEmail_Github: 0,
+        PEmail_Live: 0,
+        PEmail_Github: 0,
+        Fitness_Live: 0,
+    });
+
     useEffect(() => {
         Aos.init({
             duration: 2000,
             once: true
         })
     })
+
+    // Function to update the click count for a specific project and button type
+    const handleButtonClick = (project, buttonType) => {
+        const newClickCounts = { ...clickCounts };
+        newClickCounts[`${project}_${buttonType}`] += 1; // Increment the click count for the specific button type
+        setClickCounts(newClickCounts);
+
+        // Call the analytics function
+        projectAnalytics(project, buttonType, clickCounts[`${project}_${buttonType}`], (newCount) => {
+            newClickCounts[`${project}_${buttonType}`] = newCount;
+            setClickCounts(newClickCounts);
+        });
+    };
 
     return (
         <div className='project-div' id='project'>
@@ -45,7 +77,7 @@ const Project = () => {
                             <p>HTML, CSS, JavaScript, jQuery, AJAX, SQL, PHP</p>
                             <div>
                                 <a href='https://powersmartelectricllc.com/' target='_blank' rel="noreferrer">
-                                    <button onClick={projectAnalytics('Powersmart_Live')}>Live</button>
+                                    <button onClick={() => handleButtonClick('Powersmart', 'Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
@@ -58,7 +90,7 @@ const Project = () => {
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
                                 <a href='https://wiresmartelectrical.in/' target='_blank' rel="noreferrer">
-                                    <button onClick={projectAnalytics('Wiresmart_Live')}>Live</button>
+                                    <button onClick={() => handleButtonClick('Wiresmart', 'Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
@@ -71,7 +103,7 @@ const Project = () => {
                             <p>WordPress, PHP</p>
                             <div>
                                 <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
-                                    <button onClick={projectAnalytics('Restaurant_Live')}>Live</button>
+                                    <button onClick={() => handleButtonClick('Restaurant', 'Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
@@ -84,10 +116,10 @@ const Project = () => {
                         <p>HTML, CSS, SCSS, JavaScript</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Lyfe/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('Lyfe_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('Lyfe', 'Live')}>Live</button>
                             </a>
                             <a href='https://github.com/tsefat2143/Lyfe' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('Lyfe_Code')}>Github</button>
+                                <button onClick={() => handleButtonClick('Lyfe', 'Github')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -100,7 +132,7 @@ const Project = () => {
                         <p>Password: rteimp</p>
                         <div>
                             <a href='https://sneaker-store-development.myshopify.com/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('Store_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('Store', 'Live')}>Live</button>
                             </a>
                         </div>
                     </div>  
@@ -113,10 +145,10 @@ const Project = () => {
                         <p>HTML, CSS</p>
                         <div>
                             <a href='https://tsefat2143.github.io/News-Letter/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('NEmail_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('NEmail', 'Live')}>Live</button>
                             </a>
                             <a href='https://github.com/tsefat2143/News-Letter' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('NEmail_Code')}>Github</button>
+                                <button onClick={() => handleButtonClick('NEmail', 'Github')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -129,10 +161,10 @@ const Project = () => {
                         <p>HTML, CSS</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Transactional-Email/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('TEmail_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('TEmail', 'Live')}>Live</button>
                             </a>
                             <a href='https://github.com/tsefat2143/Transactional-Email' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('TEmail_Code')}>Github</button>
+                                <button onClick={() => handleButtonClick('TEmail', 'Github')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -145,10 +177,10 @@ const Project = () => {
                         <p>HTML, CSS</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Promotional-Email/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('PEmail_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('PEmail', 'Live')}>Live</button>
                             </a>
                             <a href='https://github.com/tsefat2143/Promotional-Email' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('PEmail_Code')}>Github</button>
+                                <button onClick={() => handleButtonClick('PEmail', 'Github')}>Github</button>
                             </a>
                         </div>
                     </div>
@@ -161,7 +193,7 @@ const Project = () => {
                         <p>WordPress</p>
                         <div>
                             <a href='https://fitness917475285.wordpress.com/' target='_blank' rel="noreferrer">
-                                <button onClick={projectAnalytics('Fitness_Live')}>Live</button>
+                                <button onClick={() => handleButtonClick('Fitness', 'Live')}>Live</button>
                             </a>
                         </div>
                     </div>
