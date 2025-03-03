@@ -96,19 +96,6 @@ const Project = () => {
                         </div>
                 </div>
                 <div data-aos='fade-down' className='project'>
-                        <img src={Restaurant} alt='Restaurant' />
-                        <p>Mike's Diner</p>
-                        <div className='project-text'>
-                            <p>Created a restaurant website</p>
-                            <p>WordPress, PHP</p>
-                            <div>
-                                <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
-                                    <button onClick={() => handleButtonClick('Restaurant', 'Live')}>Live</button>
-                                </a>
-                            </div>
-                        </div>
-                </div>
-                <div data-aos='fade-down' className='project'>
                     <img src={Lyfe} alt='Lyfe' />
                     <p>Lyfe</p>
                     <div className='project-text'>
@@ -184,6 +171,19 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
+                        <img src={Restaurant} alt='Restaurant' />
+                        <p>Mike's Diner</p>
+                        <div className='project-text'>
+                            <p>Created a restaurant website</p>
+                            <p>WordPress, PHP</p>
+                            <div>
+                                <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
+                                    <button onClick={() => handleButtonClick('Restaurant', 'Live')}>Live</button>
+                                </a>
+                            </div>
+                        </div>
                 </div>
                 <div data-aos='fade-down' className='project'>
                     <img src={Fitness} alt='Fitness' />
