@@ -99,7 +99,7 @@ const Project = () => {
                     <img src={Lyfe} alt='Lyfe' />
                     <p>Lyfe</p>
                     <div className='project-text'>
-                        <p>Created a Landing Page based on Lyfes Website</p>
+                        <p>Recreated landing page based on Lyfe's website layout</p>
                         <p>HTML, CSS, SCSS, JavaScript</p>
                         <div>
                             <a href='https://tsefat2143.github.io/Lyfe/' target='_blank' rel="noreferrer">
