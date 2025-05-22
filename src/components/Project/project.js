@@ -113,7 +113,7 @@ const Project = () => {
                 </div>
                 <div data-aos='fade-down' className='project'>
                     <img src={Sneaker} alt='Sneaker' />
-                    <p>Sneaker Store Development</p>  
+                    <p>Sneaker Store</p>  
                     <div className='project-text'>
                         <p>Created a shopify store that sells merchandise</p>
                         <p>Password: rteimp</p>
