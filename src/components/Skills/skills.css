@@ -1,44 +1,69 @@
 .skills-div {
-    flex-grow: 1;
     padding-top: 70px;
-}
-.skills-div h1 {
     text-align: center;
-    line-height: 2;
-    font-family: sans-serif;
+    flex-grow: 1;
+}
+
+.skills-div h2 {
     color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    font: 2.5rem sans-serif;
     font-weight: 800;
 }
-.skills-div img {
-    height: 90px;
-    width: 90px;
-}
-.backend-div,
-.cms-div,
-.frontend-div,
-.progLang-div,
-.tools-div {
-    display: flex;
-    flex-wrap: wrap;
-}
-.backend-div h2,
-.cms-div h2,
-.frontend-div h2,
-.progLang-div h2,
-.tools-div h2 {
-    width: 100%;
-    text-align: center;
-    color: #4169e1;
-}
+
 .img-div {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 5px 0 20px 0;
-    flex-wrap: wrap;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row on larger screens */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
 }
-.skills-div p {
-    text-align: center;
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skill-card img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
     font-weight: 800;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Hover effect */
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+}
+
+/* Responsive grid: change items per row based on screen size */
+@media (max-width: 1024px) {
+    .img-div {
+        grid-template-columns: repeat(3, 1fr); /* 3 items per row for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .img-div {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .img-div {
+        grid-template-columns: 1fr; /* 1 item per row for mobile screens */
+    }
 }

@@ -3,54 +3,37 @@
     padding-top: 70px;
     z-index: 2;
 }
-.about h1 {
-    margin-bottom: 20px;
-    text-align: center;
-    line-height: 2;
-    font-family: sans-serif;
-    font-weight: 800;
-    color: #666;
-}
-.about p {
-    font-size: 1.3rem;
-    font-family: sans-serif;
-    padding-left: 100px;
-}
-.bio :nth-child(2) {
-    margin-top: 40px;
-}
-.about p a {
-    text-decoration: none;
-    color: #00f;
-}
-.about p a:hover {
-    color: #dc143c;
-}
-.about img{
-    width: 30%;
-    border-radius: 10%;
-}
 .about-div{
     display: flex;
     width: 100%;
     align-items: center;
 }
+.about h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font: 2.5rem sans-serif;
+    font-weight: 800;
+    color: #666;
+}
+.about .bio p {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding-left: 100px;
+    margin: 40px 0;
+}
+.about img{
+    width: 30%;
+    border-radius: 10%;
+}
 @media screen and (max-width: 1300px) {
     .about-div{
         flex-direction: column;
     }
-    .about p{
+    .about .bio p{
         padding-left: 0;
+        margin: 30px;
     }
     .about img{
-        width: 70%;
-    }
-    .bio{
-        padding-top: 50px;
-    }
-}
-@media screen and (max-width: 860px) {
-    .about p {
-        margin: 0 35px;
+        width: 40%;
     }
 }

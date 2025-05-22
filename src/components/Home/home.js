@@ -11,17 +11,18 @@ const Home = () => {
             </div>
             <div className='title'>
                 <h1>
-                    <p>Hi,</p>
-                    <p>I am Tajdidul Sefat,</p>
-                    <p>
+                    Hi,
+                    <span class="line-break">I am Tajdidul Sefat,</span>   
+                    <span class="line-break"> 
                         <Typewriter
                             options={{
                                 strings: ['Web Developer', 'Content Editor', 'Web Producer', 'Email Developer'],
                                 pauseFor: 1000,
                                 autoStart: true,
                                 loop: true,
-                            }}/>
-                    </p>
+                            }}
+                        />   
+                    </span>     
                 </h1>
                 <Socials />
             </div>

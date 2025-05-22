@@ -14,17 +14,24 @@ const About = () => {
 
     return (
         <div className='about' id='about'>
-            <h1 data-aos='fade-down'>ABOUT ME</h1>
+            <h2 data-aos='fade-down'>ABOUT ME</h2>
             <div className='about-div'>
                 <img src={Me} alt='Me' data-aos={window.innerWidth>=1300 ? 'fade-right': 'fade-down'} />
                 <div className='bio' data-aos={window.innerWidth>=1300 ? 'fade-left': 'fade-down'}>
                     <p>
-                        Hi Everyone! My name is Tajdidul. 
-                        By using various programming languages, I like to create 
-                        projects and learn new technologies to better my skills. 
-                        I graduated from the City University of New York at Queens College 
-                        and plan to enjoy the journey of the web. During my free time, I love to go
-                        to the gym, play sports, go snowboarding, or watch a comedy show.
+                        Hi, I’m Tajdidul, a passionate web developer specializing in both front-end and back-end development. 
+                        With expertise in technologies like HTML/CSS, JavaScript, PHP, and WordPress I love creating innovative, 
+                        user-friendly projects. After graduating from the City University of New York at Queens College, 
+                        I’ve been honing my skills in web development and email marketing. I'm committed to building responsive, 
+                        scalable websites and optimizing user experiences.
+                    </p>
+                    <p>
+                        Whether I'm working on a dynamic web app or crafting email marketing campaigns, 
+                        I always strive to bring a blend of creativity and technical expertise to each project. 
+                    </p>
+                    <p>
+                        When I’m not coding, you’ll find me at the gym, playing sports, snowboarding, or enjoying a good comedy show. 
+                        I believe a balanced life fuels my creativity and helps me stay motivated in my web development career.
                     </p>
                 </div>
             </div>
