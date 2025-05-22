@@ -16,7 +16,7 @@ const About = () => {
         <div className='about' id='about'>
             <h2 data-aos='fade-down'>ABOUT ME</h2>
             <div className='about-div'>
-                <img src={Me} alt='tajdidul-profile-picture' data-aos={window.innerWidth>=1300 ? 'fade-right': 'fade-down'} />
+                <img src={Me} alt='tajdidul-profile' data-aos={window.innerWidth>=1300 ? 'fade-right': 'fade-down'} />
                 <div className='bio' data-aos={window.innerWidth>=1300 ? 'fade-left': 'fade-down'}>
                     <p>
                         Hi, I’m Tajdidul, a passionate web developer specializing in both front-end and back-end development. 
