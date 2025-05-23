@@ -4,15 +4,11 @@ import html from './html.png'
 import css from './css.png'
 import bootstrap from './bootstrap.png'
 import react from './react.png'
-//import nodejs from './node.png'
 import mysql from './mysql.png'
-//import mongodb from './mongoDB.jpg'
 import git from './git.png'
 import adobe from './adobe.png'
 import Wordpress from './WordPress.png'
 import Shopify from './Shopify.jpg'
-import HubSpot from './hubspot.png'
-import Contentful from './contentful.png'
 import Analytics from "./analytics.png"
 import Aos from 'aos'
 import 'aos/dist/aos.css';
@@ -47,8 +43,6 @@ return (
         <SkillCard src={mysql} alt="MySQL" label="MySQL" />
         <SkillCard src={Wordpress} alt="WordPress" label="WordPress" />
         <SkillCard src={Shopify} alt="Shopify" label="Shopify" />
-        <SkillCard src={HubSpot} alt="HubSpot" label="HubSpot" />
-        <SkillCard src={Contentful} alt="Contentful" label="Contentful" />
         <SkillCard src={git} alt="Git" label="Git" />
         <SkillCard src={adobe} alt="Adobe Photoshop" label="Adobe Photoshop" />
         <SkillCard src={Analytics} alt="Google Analytics" label="Google Analytics" />
