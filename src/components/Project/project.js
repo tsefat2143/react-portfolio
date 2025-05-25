@@ -67,7 +67,7 @@ const Project = () => {
 
     return (
         <div className='project-div' id='project'>
-            <h1 data-aos='fade-down'>PROJECTS I'VE BUILT</h1>
+            <h2 data-aos='fade-down'>PROJECTS I'VE BUILT</h2>
             <div className='project-container'>
                 <div data-aos='fade-down' className='project'>
                         <img src={Powersmart} alt='Powersmart' />

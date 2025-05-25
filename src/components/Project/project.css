@@ -2,22 +2,23 @@
     flex-grow: 1;
     padding-top: 70px;
 }
-.project-div h1 {
+.project-div h2 {
     text-align: center;
     line-height: 2;
-    font-family: sans-serif;
+    font: 2.5rem sans-serif;
     color: #666;
     font-weight: 800;
 }
 .project img {
     height: 300px;
-    width: 400px;
+    width: 100%;
     border-radius: 20px;
 }
 .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    justify-content: center; /* centers the entire grid */
     width: 100%;
     margin: 0 auto;
 }
@@ -25,7 +26,7 @@
     padding: 10px;
     border: 2px solid #000;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
 }
 .project a {
     text-decoration: none;
@@ -60,26 +61,32 @@
     background-color: #1449e8;
     transition-duration: 300ms;
 }
-@media screen and (max-width: 420px) {
-    .project {
-        margin: 10px 0;
-        padding: 10px 0;
+@media screen and (max-width: 1024px) {
+    .project-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 20px;
     }
-}
-@media screen and (max-width: 400px) {
     .project img {
-        width: 300px;
         height: 300px;
-        padding: 10px;
     }
 }
-@media screen and (max-width: 280px) {
-    .project img {
-        height: 200px;
-        width: 230px;
+
+@media screen and (max-width: 700px) {
+    .project-container {
+        grid-template-columns: 1fr; /* Stack all items in a single column */
+        gap: 15px; /* Reduce the gap between items */
     }
-    .project {
-        text-align: center;
-        width: 100%;
+    .project img {
+        height: 250px; /* Adjust height for small screens */
+    }
+}
+
+/* Very Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .project img {
+        height: 200px; /* Further reduce image height */
+    }
+    .project-text p {
+        font-size: 0.8rem; /* Slightly smaller text for very small screens */
     }
 }
