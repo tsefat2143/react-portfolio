@@ -73,7 +73,7 @@ const Project = () => {
                         <img src={Powersmart} alt='Powersmart' />
                         <p>Power Smart Electric</p>
                         <div className='project-text'>
-                            <p>Created a website for an electrician client</p>
+                            <p>Developed a full stack web application for an electrician business</p>
                             <p>HTML, CSS, JavaScript, jQuery, AJAX, SQL, PHP</p>
                             <div>
                                 <a href='https://powersmartelectricllc.com/' target='_blank' rel="noreferrer">
@@ -86,7 +86,7 @@ const Project = () => {
                         <img src={Wiresmart} alt='Wiresmart' />
                         <p>WireSmart Electrical</p>
                         <div className='project-text'>
-                            <p>Created a website for an electrician client</p>
+                            <p>Created a landing page website for an electrician client</p>
                             <p>HTML, CSS, Bootstrap</p>
                             <div>
                                 <a href='https://wiresmartelectrical.in/' target='_blank' rel="noreferrer">
@@ -115,7 +115,7 @@ const Project = () => {
                     <img src={Sneaker} alt='Sneaker' />
                     <p>Sneaker Store</p>  
                     <div className='project-text'>
-                        <p>Created a shopify store that sells merchandise</p>
+                        <p>Developed a shopify store that sells shoes and fitness products</p>
                         <p>Password: rteimp</p>
                         <div>
                             <a href='https://sneaker-store-development.myshopify.com/' target='_blank' rel="noreferrer">
@@ -176,7 +176,7 @@ const Project = () => {
                         <img src={Restaurant} alt='Restaurant' />
                         <p>Mike's Diner</p>
                         <div className='project-text'>
-                            <p>Created a restaurant website</p>
+                            <p>Created a restaurant website with online reservations</p>
                             <p>WordPress, PHP</p>
                             <div>
                                 <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
@@ -189,7 +189,7 @@ const Project = () => {
                     <img src={Fitness} alt='Fitness' />
                     <p>Fitness Blog</p>
                     <div className='project-text'>
-                        <p>Created a page about a training program</p>
+                        <p>Created a WordPress blog about a fitness training program</p>
                         <p>WordPress</p>
                         <div>
                             <a href='https://fitness917475285.wordpress.com/' target='_blank' rel="noreferrer">

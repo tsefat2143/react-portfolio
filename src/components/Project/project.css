@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 30px;
-    justify-content: center; /* centers the entire grid */
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
 }
@@ -48,6 +48,9 @@
     font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+}
+.project-text p:nth-child(1) {
+    font-size: 1rem;
 }
 .project-text button {
     color: white;
