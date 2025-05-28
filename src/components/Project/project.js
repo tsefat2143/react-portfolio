@@ -13,6 +13,7 @@ import temail from './temail.gif';
 import pemail from './pemail.gif'
 import nemail from './nemail.gif'
 import Restaurant from './restaurant.gif'
+import Saga from './saga.gif';
 
 
 const projectAnalytics = (project, buttonType, clickCount, setClickCount) => {
@@ -91,6 +92,19 @@ const Project = () => {
                             <div>
                                 <a href='https://wiresmartelectrical.in/' target='_blank' rel="noreferrer">
                                     <button onClick={() => handleButtonClick('Wiresmart', 'Live')}>Live</button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div data-aos='fade-down' className='project'>
+                        <img src={Saga} alt='Saga Beauty Care' />
+                        <p>Saga Beauty Care</p>
+                        <div className='project-text'>
+                            <p>Built an e-commerce site for a client selling scissors and tweezers</p>
+                            <p>WooCommerce, WordPress, PHP, JavaScript, AJAX</p>
+                            <div>
+                                <a href='https://sagabeautycare.com/' target='_blank' rel="noreferrer">
+                                    <button onClick={() => handleButtonClick('Saga-Beauty-Care', 'Live')}>Live</button>
                                 </a>
                             </div>
                         </div>
