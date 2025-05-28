@@ -17,6 +17,18 @@ const Experience = () => {
 
                 <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
                     <h3 className='position'>Web Developer</h3>
+                    <h4 className='workplace'>Saga Beauty Care</h4>
+                    <h5 className='date'>August 2023 - December 2023</h5>
+                    <ul className='task'>
+                        <li>Technologies: WooCommerce, WordPress, PHP, JavaScript, AJAX</li>
+                        <li>Redesigned and developed a custom WordPress e-commerce site for Saga Beauty Care.</li>
+                        <li>Integrated Stripe and PayPal for payment processing.</li>
+                        <li>Utilized SEO best practices including the use of proper meta tags to enhance the website’s visibility on search engines.</li>
+                    </ul>
+                </div>
+
+                <div data-aos={window.innerWidth>=860 ? 'fade-left': 'fade-down'} className='content'>
+                    <h3 className='position'>Web Developer</h3>
                     <h4 className='workplace'>Power Smart Electric LLC</h4>
                     <h5 className='date'>April 2023 - December 2023</h5>
                     <ul className='task'>
