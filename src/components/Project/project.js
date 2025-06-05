@@ -196,6 +196,9 @@ const Project = () => {
                                 <a href='https://mikesrestaurant.in/' target='_blank' rel="noreferrer">
                                     <button onClick={() => handleButtonClick('Restaurant', 'Live')}>Live</button>
                                 </a>
+                                <a href='https://github.com/tsefat2143/Mike-s-Diner' target='_blank' rel="noreferrer">
+                                    <button onClick={() => handleButtonClick('Restaurant', 'Github')}>Github</button>
+                                </a>
                             </div>
                         </div>
                 </div>
