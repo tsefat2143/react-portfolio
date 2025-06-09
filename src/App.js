@@ -8,7 +8,7 @@ import Project from './components/Project/project'
 import ReactGA from 'react-ga4'
 import './App.css';
 
-ReactGA.initialize("G-DKTXJ3QKS6")
+ReactGA.initialize(process.env.REACT_APP_ANALYTICS)
 ReactGA.send("pageview");
 
 function App() {
